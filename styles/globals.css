@@ -24,6 +24,10 @@ body {
   color: #444444;
 }
 
+::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+
 /* custom css sendiri */
 
 .daftar-isi a:hover{
@@ -38,6 +42,10 @@ body {
 }
 .daftar-isi ol li ::marker{
   text-align: left !important;
+}
+
+.fs-6_5{
+  font-size: 0.9rem!important;
 }
 
 .fs-7{
@@ -181,6 +189,10 @@ body {
 
 .bg-dark-blue{
   background: #2A3251 !important;
+}
+
+.bg-blue-2{
+  background: #17244B;
 }
 
 .bg-blue{
@@ -2157,6 +2169,34 @@ section {
   color: #fff;
 }
 
+.tabcustom .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #F37020 !important;
+  background-color: #17244B !important;
+  content: "";
+  display: block;
+  border-bottom: 3px solid #F37020;
+  width: 90%;
+  margin: auto;
+  margin-bottom: -1px;
+  border-radius: 0 !important ;
+}
+.nav-pills .nav-link {
+  background: 0 0;
+  border: 0;
+  border-radius: 0.375rem;
+}
+.tabcustom a{
+  font-size: 0.9rem!important;
+  text-decoration: none;
+  color: #FFFF !important;
+  cursor: pointer;
+  font-weight: 600;
+}
+.tabcustom{
+  background-color: #17244B;
+  border-radius: 0.375rem;
+}
+
 @media (max-width: 575px) {
   #footer .footer-top .footer-info {
     margin: -20px 0 30px 0;
@@ -2172,6 +2212,53 @@ section {
   -webkit-animation: fade-up 0.5s ease forwards;
   animation: fade-up 0.5s ease forwards;
 }
+
+.table-scroll {
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  margin: auto;
+  overflow: auto;
+  height: auto;
+}
+.table-scroll table {
+  width: 100%;
+  min-width: 400px;
+  margin: auto;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+.table-scroll th,
+.table-scroll td {
+  padding: 5px 10px;
+  vertical-align: middle !important;
+}
+.table-scroll thead th {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+.table-scroll tfoot,
+.table-scroll tfoot th,
+.table-scroll tfoot td {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+  z-index: 4;
+}
+
+.table-scroll th:first-child {
+  position: -webkit-sticky;
+  position: sticky;
+  left: -1px;
+  z-index: 2;
+  background: #17244B;
+}
+.table-scroll thead th:first-child,
+.table-scroll tfoot th:first-child {
+  z-index: 5;
+}
+
 
 @keyframes fade-up {
   0% {

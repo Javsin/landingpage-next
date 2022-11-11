@@ -29,12 +29,59 @@ const Navbar = (props) => {
         window.addEventListener("load", toggleBacktotop);
         onscroll(document, toggleBacktotop);
       }
-    });
+      // const select = (el, all = false) => {
+      //   try {
+      //     el = el.trim();
+      //     if (all) {
+      //       return [...document.querySelectorAll(el)];
+      //     } else {
+      //       return document.querySelector(el);
+      //     } 
+      //   } catch (error) {
+          
+      //   }
+      // };
+      // const on = (type, el, listener, all = false) => {
+      //   let selectEl = select(el, all);
+      //   if (selectEl) {
+      //     if (all) {
+      //       selectEl.forEach((e) => e.addEventListener(type, listener));
+      //     } else {
+      //       selectEl.addEventListener(type, listener);
+      //     }
+      //   }
+      // };
+      // on("click", ".mobile-nav-toggle", function (e) {
+      const el_toggle = document.querySelector(".mobile-nav-toggle");
+      el_toggle.addEventListener("click", (e) => {
+        console.log("click");
+        document.getElementById("navbar").classList.toggle("navbar-mobile");
+        el_toggle.classList.toggle("bi-list");
+        el_toggle.classList.toggle("bi-x");
+      });
+    
+      /**
+       * Mobile nav dropdowns activate
+       */
+      // on(
+      //   "click",
+      //   ".navbar .dropdown > a",
+      //   function (e) {
+      //     if (select("#navbar").classList.contains("navbar-mobile")) {
+      //       e.preventDefault();
+      //       this.nextElementSibling.classList.toggle("dropdown-active");
+      //     }
+      //   },
+      //   true
+      // );
+    },[]);
     return (
-        <header id="header" className={"fixed-top d-flex align-items-center "+ props.background }>
+      <header id="header" className={"fixed-top d-flex align-items-center "+ props.background }>
         <div className="container d-flex align-items-center justify-content-between">
           <div className="logo">
-            <h1><a href="index.html"><span>MuraPay</span></a></h1>
+            <Link href="/">
+              <h1 className="text-white"><span>MuraPay</span></h1>
+            </Link>
           </div>
           <nav id="navbar" className="navbar">
             <ul>
@@ -53,7 +100,13 @@ const Navbar = (props) => {
                 </Link>
               </li>
               <li><a className="nav-link scrollto" href="#testimonials">Fitur</a></li>
-              <li><a className="nav-link scrollto" href="#testimonials">Harga Produk</a></li>
+              <li>
+                <Link href="/harga">
+                  <a className={router.pathname == "/harga" ? "nav-link scrollto active" : "nav-link scrollto"}>
+                    Harga
+                  </a>
+                </Link>
+              </li>
               <li><a className="nav-link scrollto" href="#testimonials">FAQ</a></li>
               <li><a className="nav-link scrollto" href="#testimonials">Kontak</a></li>
             </ul>
