@@ -5,8 +5,6 @@
  * License: https://bootstrapmade.com/license/
  */
 (function () {
-  "use strict";
-
   /**
    * Easy selector helper function
    */
@@ -277,4 +275,4 @@
   };
 
   document.addEventListener("scroll", floatingMobile);
-},[])();
+})();

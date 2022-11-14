@@ -111,7 +111,7 @@ const Price = () => {
                         {
                             data.map((item, index) => {
                                 return (
-                                    <div key={index} className={'tab-pane'+(index == 0 ? ' active show' : '')} id={'pills-'+index} role="tabpanel" aria-labelledby={'pills-'+index+'-tab'}>
+                                    <div key={index} className={'tab-pane'+(index == 0 ? ' active show' : '')} id={'pills-'+index} role="tabpanel" aria-labelledby={`pills-${index}-tab`}>
                                         {
                                             item.data.map((item2, index2) => {
                                                 return (

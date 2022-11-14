@@ -23,13 +23,10 @@ body {
   font-family: "Poppins", sans-serif;
   color: #444444;
 }
-
-::-webkit-scrollbar {
-  display: none; /* Safari and Chrome */
-}
-
 /* custom css sendiri */
-
+.table-scroll::-webkit-scrollbar {
+  display: none;
+}
 .daftar-isi a:hover{
   color : #2A3251;
 }
@@ -185,6 +182,10 @@ body {
 
 .bg-gray{
   background: #E4E4E4;
+}
+
+.bg-gradient-blue{
+  background: linear-gradient(90deg, #262F54 30.36%, rgba(38, 47, 84, 0) 97.24%);
 }
 
 .bg-dark-blue{

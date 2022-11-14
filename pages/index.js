@@ -8,8 +8,9 @@ import Suitable from '../components/homepage/suitable';
 import Carousel from '../components/homepage/carousel';
 import FAQ from '../components/homepage/faq';
 import Modal from '../components/addons/modalvid';
-export default function Home() {
+export default function Home({data}) {
   useEffect(() => {
+    console.log(data);
     window.AOS.init({
       duration: 1000,
       easing: "ease-in-out",
@@ -31,4 +32,12 @@ export default function Home() {
       </Layout>
     </div>
   )
+}
+
+export async function getServerSideProps() {
+  // Fetch data from external API
+  const res = await fetch(`${process.env.api}hello`)
+  const data = await res.json()
+  // Pass data to the page via props
+  return { props: { data } }
 }

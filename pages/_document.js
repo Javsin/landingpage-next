@@ -22,7 +22,7 @@ export default function Document() {
         {/* <script src="vendor/glightbox/js/glightbox.min.js"></script> */}
         {/* <script src="vendor/swiper/swiper-bundle.min.js"></script> */}
         {/* <script src="vendor/php-email-form/validate.js"></script> */}
-        {/* <script src="js/main.js"></script> */}
+        <script src="js/main.js"></script>
       </body>
     </Html>
   )
