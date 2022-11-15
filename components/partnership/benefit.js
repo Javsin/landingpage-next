@@ -1,0 +1,87 @@
+import Image from 'next/future/image';
+import Circle from '../../public/img/new/fasdo.png'
+import Circle_2 from '../../public/img/new/multi_saldo.png'
+import Circle_3 from '../../public/img/new/jalur_komunikasi.png'
+const Benefit = () => {
+    return (
+        <div>
+            <section className="bg-dark-blue introduction">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12 text-center mb-5">
+                            <h3 className="fs-3 fw-700 text-orange">Benefit Program untuk Dealer</h3>
+                        </div>            
+                    </div>
+                    <div className="row">
+                        <div className="col-4 mb-5">
+                            <div className="card-sangkar-burung p-3 text-center h-100">
+                                <Image src={Circle} className="rounded-circle"/>
+                                <h5 className='my-3 text-orange fw-500 mt-3'>
+                                  Fasilitas Saldo <br/>Talangan
+                                </h5>
+                                <p className='my-0 text-white fw-300 fs-6_5 mb-3'>
+                                    Fasilitas Saldo Talangan untuk mendukung kebutuhan deposit
+                                    saldo MuraPay bagi Tim Sales
+                                    Dealer yang lebih mudah.
+                                </p>
+                            </div>
+                        </div>
+                        <div className="col-4 mb-5">
+                            <div className="card-sangkar-burung p-3 text-center h-100">
+                                <Image src={Circle_2} className="rounded-circle"/>
+                                <h5 className='my-3 text-orange fw-500 mt-3'>
+                                     Multi Saldo
+                                </h5>
+                                <p className='my-0 text-white fw-300 fs-6_5 mb-3 pt-4'>
+                                    Pengguna dari jaringan Tim Sales Dealer akan mendapatkan 2 (dua) jenis saldo: Saldo Umum
+                                    dan
+                                    Saldo Dealer.
+                                </p>
+                            </div>
+                        </div>
+                        <div className="col-4 mb-5">
+                            <div className="card-sangkar-burung p-3 text-center h-100">
+                                <Image src={Circle_3} className="rounded-circle"/>
+                                <h5 className='my-3 text-orange fw-500 mt-3'>
+                                    Jalur Komunikasi <br/> Khusus
+                                </h5>
+                                <p className='my-0 text-white fw-300 fs-6_5 mb-3'>
+                                    Dapatkan support layanan dan
+                                    transaksi khusus bagi Dealer
+                                    melalui jalur komunikasi eksklusif.
+                                </p>
+                            </div>
+                        </div>
+                        <div className="col-4 offset-2">
+                            <div className="card-sangkar-burung p-3 text-center h-100">
+                                <Image src={Circle_3} className="rounded-circle"/>
+                                <h5 className='my-3 text-orange fw-500 mt-3'>
+                                    Jalur Komunikasi <br/> Khusus
+                                </h5>
+                                <p className='my-0 text-white fw-300 fs-6_5 mb-3'>
+                                    Dapatkan support layanan dan
+                                    transaksi khusus bagi Dealer
+                                    melalui jalur komunikasi eksklusif.
+                                </p>
+                            </div>
+                        </div>
+                        <div className="col-4">
+                            <div className="card-sangkar-burung p-3 text-center h-100">
+                                <Image src={Circle_3} className="rounded-circle"/>
+                                <h5 className='my-3 text-orange fw-500 mt-3'>
+                                    Jalur Komunikasi <br/> Khusus
+                                </h5>
+                                <p className='my-0 text-white fw-300 fs-6_5 mb-3'>
+                                    Dapatkan support layanan dan
+                                    transaksi khusus bagi Dealer
+                                    melalui jalur komunikasi eksklusif.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+      </div>
+    )
+}
+export default Benefit;

@@ -8,7 +8,7 @@ const Banner = () => {
                 <div className="row d-flex">
                     <div className="col-lg-4 pt-5 pt-lg-0 order-2 order-lg-1">
                         <div data-aos="zoom-out" className='pb-0'>
-                            <Image src={image1} className={styles.image_kemitraan} />
+                            <Image src={image1} className={styles.image_kemitraan} alt="kemitraan-1" loading="lazy"/>
                         </div>
                     </div>
                     <div className="col-lg-8 order-1 order-lg-2 hero-img ps-5 align-self-center" data-aos="zoom-out" data-aos-delay={300}>

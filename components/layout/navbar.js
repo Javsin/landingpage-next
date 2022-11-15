@@ -28,7 +28,7 @@ const Navbar = (props) => {
           }
         }
       };
-      
+
       const scrollValue = () => {
         const scroll = window.scrollY;
         const navbar = document.getElementById("header");
@@ -119,33 +119,20 @@ const Navbar = (props) => {
                   </a>
                 </Link>
               </li>
-              {/* <li>
+              <li>
                 <Link href="/kemitraan">
                   <a className={router.pathname == "/kemitraan" ? "nav-link scrollto active" : "nav-link scrollto"}>
                     Kemitraan
                   </a>
                 </Link>
-              </li> */}
-              <li class="dropdown">
-                  <a className="nav-link scrollto"><span>Kemitraan</span> <i class="bi bi-chevron-down"></i></a>
-                <ul>
-                  <li>
-                    <Link href="/kemitraan">
-                      <a className={router.pathname == "/kemitraan" ? "nav-link scrollto active" : "nav-link scrollto"}>
-                        Kemitraan
-                      </a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/mitradelaer">
-                      <a className={router.pathname == "/mitradealer" ? "nav-link scrollto active" : "nav-link scrollto"}>
-                        Mitra Untuk Dealer
-                      </a>
-                    </Link>
-                  </li>
-                </ul>
               </li>
-              <li><a className="nav-link scrollto" href="#testimonials">Fitur</a></li>
+              <li>
+                <Link href="/partnership">
+                  <a className={router.pathname == "/partnership" ? "nav-link scrollto active" : "nav-link scrollto"}>
+                    Partnership
+                  </a>
+                </Link>
+              </li>
               <li>
                 <Link href="/harga">
                   <a className={router.pathname == "/harga" ? "nav-link scrollto active" : "nav-link scrollto"}>
@@ -153,7 +140,6 @@ const Navbar = (props) => {
                   </a>
                 </Link>
               </li>
-              <li><a className="nav-link scrollto" href="#testimonials">FAQ</a></li>
               <li><a className="nav-link scrollto" href="#testimonials">Kontak</a></li>
             </ul>
             <i className="bi bi-list mobile-nav-toggle"></i>

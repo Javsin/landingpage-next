@@ -73,6 +73,9 @@ body {
   font-weight: 400;
 }
 
+.fw-300 {
+  font-weight: 300;
+}
 .border-dark-blue{
   border: 2px solid #2A3251;
 }
@@ -134,6 +137,10 @@ body {
   border-radius: 54px;
 }
 
+.border-radius-elips {
+  border-radius: 12rem;
+}
+
 .border-radius-24 {
   border-radius: 24px;
 }
@@ -172,6 +179,28 @@ body {
   border-radius: 0 0 54px 54px;
 }
 
+.border-radius-1{
+  border-radius: 2rem;
+}
+
+.border-radius-1-top {
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+}
+
+.border-radius-1-bottom {
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+}
+
+.card-sangkar-burung{
+  box-sizing: border-box;
+  width: 300px;
+  background: #313C63;
+  box-shadow: 8px 12px 14px rgba(13, 18, 37, 0.5);
+  border-radius: 180px 180px 25px 25px;
+}
+
 .bg-light-gray {
   background-color: #EFEFEF;
 }
@@ -188,20 +217,44 @@ body {
   background: linear-gradient(90deg, #262F54 30.36%, rgba(38, 47, 84, 0) 97.24%);
 }
 
-.bg-dark-blue{
-  background: #2A3251 !important;
+.bg-gradient-blue-reverse {
+  background: linear-gradient(270deg, #262F54 30.11%, rgba(38, 47, 84, 0) 96.44%);
 }
 
-.bg-blue-2{
-  background: #17244B;
+.bg-gradient-white{
+  background: linear-gradient(180deg, #FEFEFE 0%, #CFCFCF 121.27%);
+}
+
+.bg-dark-blue{
+  background: #2A3251 !important;
 }
 
 .bg-blue{
   background: #414B73 !important;
 }
 
-.bg-blue2{
-  background: #38426C !important;
+.bg-blue-2{
+  background: #17244B;
+}
+
+.bg-blue-3{
+  background: #0f162f52;
+}
+
+.bg-blue-4{
+  background: #181F3A;
+} 
+
+.bg-blue-5{
+  background: #323D65;
+} 
+
+.bg-blue-6{
+  background: #1D2544;
+}
+
+.bg-blue-7{
+  background: #2D3659;
 }
 
 .bg-orange{
@@ -279,6 +332,24 @@ body {
   cursor: pointer;
 }
 
+.img-banner-partner{
+  position: absolute;
+  left : 2rem;
+  top : -3rem;
+}
+
+.cakupan-partnership ul{
+  list-style: none;
+}
+
+.cakupan-partnership ul li::before {
+  content: "●";
+  color: #F37020;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1.5em;
+}
 /* end custom sendiri */
 
 a {
@@ -764,6 +835,15 @@ h6 {
   background: url("../public/img/new/pattern\ 1.png") no-repeat center;
   background-size: 100% 75%;
   position: relative;
+}
+
+#hero_ku_partner {
+  width: 100%;
+  background-image: url("../public/img/new/bg-partner.png");
+  background-size: cover ;
+  background-color: #21284d;
+  position: relative;
+  background-blend-mode: overlay;
 }
 
 #hero_ku:before {
