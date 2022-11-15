@@ -6,6 +6,7 @@ import Goal from '../components/partnership/goal';
 import Cooperation from '../components/partnership/cooperation';
 import Excellence from '../components/partnership/excellence';
 import Benefit from '../components/partnership/benefit';
+import Form_partner from '../components/partnership/form_partner';
 export default function Kemitraan() {
     useEffect(() => {
         window.AOS.init({
@@ -23,6 +24,7 @@ export default function Kemitraan() {
             <Cooperation/>
             <Excellence/>
             <Benefit/>
+            <Form_partner/>
         </Layout>
     );
 }

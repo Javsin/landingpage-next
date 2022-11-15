@@ -41,6 +41,10 @@ body {
   text-align: left !important;
 }
 
+.w-55{
+  width: 55% !important;
+}
+
 .fs-6_5{
   font-size: 0.9rem!important;
 }
@@ -349,6 +353,16 @@ body {
   display: inline-block; 
   width: 1em;
   margin-left: -1.5em;
+}
+
+.check-partnership .form-check-input:checked {
+  background-color: #35AB56 !important;
+  border-color: #35AB56 !important;
+}
+
+.form-check-input[type=checkbox] {
+  outline: none !important;
+  box-shadow: none !important;
 }
 /* end custom sendiri */
 
@@ -840,6 +854,15 @@ h6 {
 #hero_ku_partner {
   width: 100%;
   background-image: url("../public/img/new/bg-partner.png");
+  background-size: cover ;
+  background-color: #21284d;
+  position: relative;
+  background-blend-mode: overlay;
+}
+
+#form_partner {
+  width: 100%;
+  background-image: url("../public/img/new/bg-form-partner.png");
   background-size: cover ;
   background-color: #21284d;
   position: relative;

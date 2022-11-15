@@ -2,6 +2,8 @@ import Image from 'next/future/image';
 import Circle from '../../public/img/new/fasdo.png'
 import Circle_2 from '../../public/img/new/multi_saldo.png'
 import Circle_3 from '../../public/img/new/jalur_komunikasi.png'
+import Circle_4 from '../../public/img/new/kerjasama.png'
+import Circle_5 from '../../public/img/new/media_promosi.png'
 const Benefit = () => {
     return (
         <div>
@@ -54,22 +56,22 @@ const Benefit = () => {
                         </div>
                         <div className="col-4 offset-2">
                             <div className="card-sangkar-burung p-3 text-center h-100">
-                                <Image src={Circle_3} className="rounded-circle"/>
+                                <Image src={Circle_4} className="rounded-circle"/>
                                 <h5 className='my-3 text-orange fw-500 mt-3'>
-                                    Jalur Komunikasi <br/> Khusus
+                                    Kerja Sama Eksklusif <br/> di Area Dealer
                                 </h5>
                                 <p className='my-0 text-white fw-300 fs-6_5 mb-3'>
-                                    Dapatkan support layanan dan
-                                    transaksi khusus bagi Dealer
-                                    melalui jalur komunikasi eksklusif.
+                                    Untuk menghindari conflict of
+                                    interest, MuraPay tidak akan bekerjasama dengan dealer 
+                                    operator lain di area yang sama.
                                 </p>
                             </div>
                         </div>
                         <div className="col-4">
                             <div className="card-sangkar-burung p-3 text-center h-100">
-                                <Image src={Circle_3} className="rounded-circle"/>
+                                <Image src={Circle_5} className="rounded-circle"/>
                                 <h5 className='my-3 text-orange fw-500 mt-3'>
-                                    Jalur Komunikasi <br/> Khusus
+                                    Dukungan Materi<br/> Promosi untuk Tim Sales
                                 </h5>
                                 <p className='my-0 text-white fw-300 fs-6_5 mb-3'>
                                     Dapatkan support layanan dan
