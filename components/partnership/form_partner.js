@@ -28,7 +28,7 @@ const Form_partner = () => {
                                                     </label>
                                                 </div>      
                                                 <div className="col-8 mb-2">
-                                                    <input type="text" className="form-control bg-white border-0 rounded-3 fs-6_5"/>
+                                                    <input type="text" className="form-control bg-white border-light-gray rounded-3 fs-6_5"/>
                                                 </div>
                                                 <div className="col-12 mb-2">
                                                     <label className="text-secondary fs-6_5 fw-400">
@@ -36,7 +36,7 @@ const Form_partner = () => {
                                                     </label>
                                                 </div>      
                                                 <div className="col-8 mb-2">
-                                                    <input type="text" className="form-control bg-white border-0 rounded-3 fs-6_5"/>
+                                                    <input type="text" className="form-control bg-white border-light-gray rounded-3 fs-6_5"/>
                                                 </div>
                                                 <div className="col-12 mb-2">
                                                     <label className="text-secondary fs-6_5 fw-400">
@@ -44,7 +44,7 @@ const Form_partner = () => {
                                                     </label>
                                                 </div>      
                                                 <div className="col-8 mb-2">
-                                                    <input type="text" className="form-control bg-white border-0 rounded-3 fs-6_5"/>
+                                                    <input type="text" className="form-control bg-white border-light-gray rounded-3 fs-6_5"/>
                                                 </div>
                                                 <div className="col-12 mb-2">
                                                     <label className="text-secondary fs-6_5 fw-400">
@@ -52,7 +52,7 @@ const Form_partner = () => {
                                                     </label>
                                                 </div>      
                                                 <div className="col-8 mb-2">
-                                                    <textarea className="form-control founded-3" rows={4} />
+                                                    <textarea className="form-control rounded-3 fs-6_5" rows={4} />
                                                 </div>
                                                 <div className="col-6 mb-2">
                                                     <label className="text-secondary fs-6_5 fw-400">
@@ -65,18 +65,21 @@ const Form_partner = () => {
                                                     </label>
                                                 </div>      
                                                 <div className="col-6 mb-2">
-                                                    <input type="text" className="form-control bg-white border-0 rounded-3 fs-6_5"/>
+                                                    <input type="text" className="form-control bg-white rounded-3 fs-6_5 border-light-gray"/>
                                                 </div>
                                                 <div className="col-6 mb-2">
-                                                    <input type="text" className="form-control bg-white border-0 rounded-3 fs-6_5"/>
+                                                    <input type="email" className="form-control bg-white rounded-3 fs-6_5 border-light-gray"/>
                                                 </div>
                                                 <div className="col-12 mb-2">
                                                     <div className="form-check check-partnership">
-                                                        <input className="form-check-input border-secondary" type="checkbox" defaultValue id="flexCheckDefault" />
+                                                        <input className="form-check-input border-light-gray" type="checkbox" defaultValue id="flexCheckDefault" />
                                                         <label className="form-check-label fs-6_5 text-secondary fw-400" htmlFor="flexCheckDefault">
                                                             Bisa hubungi via WhatsApp
                                                         </label>
                                                     </div>
+                                                </div>
+                                                <div className="col-12 mb-2 text-center mt-3">
+                                                    <button className="btn bg-orange fw-400 text-white rounded-5 py-2 px-4">Hubungi Murapay</button>
                                                 </div>
                                             </div>
                                         </div>

@@ -15,9 +15,9 @@ const Benefit = () => {
                         </div>            
                     </div>
                     <div className="row">
-                        <div className="col-4 mb-5">
+                        <div className="col-4 mb-5 d-flex justify-content-center">
                             <div className="card-sangkar-burung p-3 text-center h-100">
-                                <Image src={Circle} className="rounded-circle"/>
+                                <Image src={Circle} className="rounded-circle" alt='img-benefit-1' loading='lazy'/>
                                 <h5 className='my-3 text-orange fw-500 mt-3'>
                                   Fasilitas Saldo <br/>Talangan
                                 </h5>
@@ -28,9 +28,9 @@ const Benefit = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="col-4 mb-5">
+                        <div className="col-4 mb-5 d-flex justify-content-center">
                             <div className="card-sangkar-burung p-3 text-center h-100">
-                                <Image src={Circle_2} className="rounded-circle"/>
+                                <Image src={Circle_2} className="rounded-circle" alt='img-benefit-2' loading='lazy'/>
                                 <h5 className='my-3 text-orange fw-500 mt-3'>
                                      Multi Saldo
                                 </h5>
@@ -41,9 +41,9 @@ const Benefit = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="col-4 mb-5">
+                        <div className="col-4 mb-5 d-flex justify-content-center">
                             <div className="card-sangkar-burung p-3 text-center h-100">
-                                <Image src={Circle_3} className="rounded-circle"/>
+                                <Image src={Circle_3} className="rounded-circle" alt='img-benefit-3' loading='lazy'/>
                                 <h5 className='my-3 text-orange fw-500 mt-3'>
                                     Jalur Komunikasi <br/> Khusus
                                 </h5>
@@ -54,9 +54,9 @@ const Benefit = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="col-4 offset-2">
+                        <div className="col-4 offset-2 d-flex justify-content-center">
                             <div className="card-sangkar-burung p-3 text-center h-100">
-                                <Image src={Circle_4} className="rounded-circle"/>
+                                <Image src={Circle_4} className="rounded-circle" alt='img-benefit-4' loading='lazy'/>
                                 <h5 className='my-3 text-orange fw-500 mt-3'>
                                     Kerja Sama Eksklusif <br/> di Area Dealer
                                 </h5>
@@ -67,9 +67,9 @@ const Benefit = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="col-4">
+                        <div className="col-4 d-flex justify-content-center">
                             <div className="card-sangkar-burung p-3 text-center h-100">
-                                <Image src={Circle_5} className="rounded-circle"/>
+                                <Image src={Circle_5} className="rounded-circle" alt='img-benefit-5' loading='lazy'/>
                                 <h5 className='my-3 text-orange fw-500 mt-3'>
                                     Dukungan Materi<br/> Promosi untuk Tim Sales
                                 </h5>

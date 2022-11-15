@@ -4,7 +4,6 @@ import { useEffect } from "react";
 const Navbar = (props) => {
     const router = useRouter();
     useEffect(() => {
-
       const select = (el, all = false) => {
         try {
           el = el.trim();
@@ -140,7 +139,6 @@ const Navbar = (props) => {
                   </a>
                 </Link>
               </li>
-              <li><a className="nav-link scrollto" href="#testimonials">Kontak</a></li>
             </ul>
             <i className="bi bi-list mobile-nav-toggle"></i>
           </nav>

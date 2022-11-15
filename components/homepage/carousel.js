@@ -40,52 +40,52 @@ const Carousel = () => {
                         >
                         <SwiperSlide>
                             <div>
-                                <Image src={image1} unoptimized={true} />
+                                <Image src={image1} unoptimized={true} loading='lazy' alt='icon_1_produk' />
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div>
-                                <Image src={image2} unoptimized={true}/>
+                                <Image src={image2} unoptimized={true} loading='lazy' alt='icon_2_produk'/>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div>
-                                <Image src={image3} unoptimized={true} />
+                                <Image src={image3} unoptimized={true} loading='lazy' alt='icon_3_produk'/>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div>
-                                <Image src={image4} unoptimized={true} />
+                                <Image src={image4} unoptimized={true} loading='lazy' alt='icon_4_produk'/>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div>
-                                <Image src={image5} unoptimized={true} />
+                                <Image src={image5} unoptimized={true} loading='lazy' alt='icon_5_produk'/>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div>
-                                <Image src={image6} unoptimized={true} />
+                                <Image src={image6} unoptimized={true} loading='lazy' alt='icon_6_produk'/>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div>
-                                <Image src={image7} unoptimized={true} />
+                                <Image src={image7} unoptimized={true} loading='lazy' alt='icon_7_produk'/>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div>
-                                <Image src={image8} unoptimized={true} />
+                                <Image src={image8} unoptimized={true} loading='lazy' alt='icon_8_produk'/>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div>
-                                <Image src={image9} unoptimized={true} />
+                                <Image src={image9} unoptimized={true} loading='lazy' alt='icon_9_produk'/>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div>
-                                <Image src={image10} unoptimized={true} />
+                                <Image src={image10} unoptimized={true} loading='lazy' alt='icon_10_produk'/>
                             </div>
                         </SwiperSlide>
                 </Swiper>
@@ -105,52 +105,52 @@ const Carousel = () => {
                         >
                         <SwiperSlide>
                             <div>
-                                <Image src={image1} unoptimized={true} />
+                                <Image src={image1} unoptimized={true} loading='lazy' alt='icon_1_produk'/>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div>
-                                <Image src={image2} unoptimized={true}/>
+                                <Image src={image2} unoptimized={true} loading='lazy' alt='icon_2_produk'/>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div>
-                                <Image src={image3} unoptimized={true} />
+                                <Image src={image3} unoptimized={true} loading='lazy' alt='icon_3_produk'/>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div>
-                                <Image src={image4} unoptimized={true} />
+                                <Image src={image4} unoptimized={true} loading='lazy' alt='icon_4_produk'/>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div>
-                                <Image src={image5} unoptimized={true} />
+                                <Image src={image5} unoptimized={true} loading='lazy' alt='icon_5_produk'/>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div>
-                                <Image src={image6} unoptimized={true} />
+                                <Image src={image6} unoptimized={true} loading='lazy' alt='icon_6_produk'/>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div>
-                                <Image src={image7} unoptimized={true} />
+                                <Image src={image7} unoptimized={true} loading='lazy' alt='icon_7_produk'/>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div>
-                                <Image src={image8} unoptimized={true} />
+                                <Image src={image8} unoptimized={true} loading='lazy' alt='icon_8_produk'/>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div>
-                                <Image src={image9} unoptimized={true} />
+                                <Image src={image9} unoptimized={true} loading='lazy' alt='icon_9_produk'/>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div>
-                                <Image src={image10} unoptimized={true} />
+                                <Image src={image10} unoptimized={true} loading='lazy' alt='icon_10_produk'/>
                             </div>
                         </SwiperSlide>
                 </Swiper>

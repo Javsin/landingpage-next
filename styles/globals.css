@@ -218,11 +218,11 @@ body {
 }
 
 .bg-gradient-blue{
-  background: linear-gradient(90deg, #262F54 30.36%, rgba(38, 47, 84, 0) 97.24%);
+  background: linear-gradient(90deg, #262F54 30.36%, rgba(38, 47, 84, 0) 97.24%) !important;
 }
 
 .bg-gradient-blue-reverse {
-  background: linear-gradient(270deg, #262F54 30.11%, rgba(38, 47, 84, 0) 96.44%);
+  background: linear-gradient(270deg, #262F54 30.11%, rgba(38, 47, 84, 0) 96.44%) !important;
 }
 
 .bg-gradient-white{
@@ -238,27 +238,27 @@ body {
 }
 
 .bg-blue-2{
-  background: #17244B;
+  background: #17244B !important;
 }
 
 .bg-blue-3{
-  background: #0f162f52;
+  background: #0f162f52 !important;
 }
 
 .bg-blue-4{
-  background: #181F3A;
+  background: #181F3A !important;
 } 
 
 .bg-blue-5{
-  background: #323D65;
+  background: #323D65 !important;
 } 
 
 .bg-blue-6{
-  background: #1D2544;
+  background: #1D2544 !important;
 }
 
 .bg-blue-7{
-  background: #2D3659;
+  background: #2D3659 !important;
 }
 
 .bg-orange{
@@ -364,6 +364,15 @@ body {
   outline: none !important;
   box-shadow: none !important;
 }
+.form-control:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border: 1px solid #d3d3d3 !important;
+}
+textarea:focus{
+  border: 1px solid #d3d3d3 !important;
+}
+
 /* end custom sendiri */
 
 a {
@@ -485,7 +494,7 @@ h6 {
   z-index: 997;
   transition: all 0.5s;
   /* background: rgba(1, 4, 136, 0.9); */
-  background: rgba(44, 50, 82, 0.97);
+  background: #1D2544;
 }
 
 #header.header-transparent {
@@ -494,7 +503,7 @@ h6 {
 
 #header.header-scrolled {
   /* background: rgba(1, 4, 136, 0.9); */
-  background: rgba(44, 50, 82, 0.97);
+  background: #1D2544;
   height: 60px;
 }
 

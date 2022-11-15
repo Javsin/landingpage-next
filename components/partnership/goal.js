@@ -16,7 +16,7 @@ const Goal = () => {
                             <div className="border-radius-elips p-3 bg-gradient-blue">
                                 <div className="row d-flex gx-5">
                                     <div className='col-3'>
-                                        <Image src={icon_1} className='img-fluid' alt='img-goal-1'/>
+                                        <Image src={icon_1} className='img-fluid' alt='img-goal-1' loading='lazy'/>
                                     </div>
                                     <div className='col-9 align-self-center'>
                                         <p className="text-white fw-400">Meningkatkan transaksi inner Dealer.</p>
@@ -32,7 +32,7 @@ const Goal = () => {
                                         cepat & harga bersaing bagi pengguna sesuai area.</p>
                                     </div>
                                     <div className='col-3'>
-                                        <Image src={icon_2} className='img-fluid' alt='img-goal-2'/>
+                                        <Image src={icon_2} className='img-fluid' alt='img-goal-2' loading='lazy'/>
                                     </div>
                                 </div>
                             </div>
@@ -41,7 +41,7 @@ const Goal = () => {
                             <div className="border-radius-elips p-3 bg-gradient-blue">
                                 <div className="row d-flex gx-5">
                                     <div className='col-3'>
-                                        <Image src={icon_3} className='img-fluid' alt='img-goal-3'/>
+                                        <Image src={icon_3} className='img-fluid' alt='img-goal-3' loading='lazy'/>
                                     </div>
                                     <div className='col-9 align-self-center cakupan-partnership'>
                                         <p className="text-white fw-400">Menambah pasar baru untuk meningkatkan transaksi inner di wilayah dealer.</p>
