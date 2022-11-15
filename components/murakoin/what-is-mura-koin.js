@@ -7,12 +7,12 @@ const WhatIsMuraKoin = (props) => {
         <div className="container">
           <div className="mx-5 px-3">
             <div className="row d-flex">
-              <div className="col-5" data-aos="zoom-out">
+              <div className="col-5">
                 <a onClick={props.openBootstrapModal} className="youtube">
                     <Image src = {image1} className={styles.thumbnail_video} unoptimized={true}/>
                 </a>
               </div>
-              <div className="col-7 align-self-center" data-aos="zoom-out" data-aos-delay={300}>
+              <div className="col-7 align-self-center">
                 <h4 className="text-orange fs-3 fw-700">Apa itu MuraKoin ? </h4>
                 <p className="my-0 fs-6">
                   MuraKoin adalah reward dalam sistem kemitraan MuraPay<br />
@@ -21,7 +21,7 @@ const WhatIsMuraKoin = (props) => {
                 </p>
               </div>
             </div>
-            <div className="row mb-5 mt-4 gx-0" data-aos="zoom-out" data-aos-delay={300}>
+            <div className="row mb-5 mt-4 gx-0">
               <div className="col-12 mt-2 pe-0 d-flex mt-3">
                 <div className="circle3 bg-dark-blue text-white fw-400 fs-3 me-3">
                   A
@@ -96,7 +96,7 @@ const WhatIsMuraKoin = (props) => {
               </div>
               <div className="col-4 offset-4 mt-4">
                 <div className="row">
-                  <div className="col-6 mb-3" data-aos="fade-right">
+                  <div className="col-6 mb-3">
                     <div className="border-radius-24 bg-dark-blue">
                       <div className="rounded-pill bg-orange">
                         <p className="text-white fs-6 fw-600 py-2 my-0">PLN Token</p>
@@ -110,7 +110,7 @@ const WhatIsMuraKoin = (props) => {
                     </div>
                   </div>
                   <div className="col-6 mb-3">
-                    <div className="border-radius-24 bg-dark-blue" data-aos="fade-left">
+                    <div className="border-radius-24 bg-dark-blue">
                       <div className="rounded-pill bg-orange">
                         <p className="text-white fs-6 fw-600 py-2 my-0">Pulsa</p>
                       </div>
@@ -122,7 +122,7 @@ const WhatIsMuraKoin = (props) => {
                       </div>
                     </div>
                   </div>
-                  <div className="col-6 mb-3" data-aos="fade-right">
+                  <div className="col-6 mb-3">
                     <div className="border-radius-24 bg-dark-blue">
                       <div className="rounded-pill bg-orange">
                         <p className="text-white fs-6 fw-600 py-2 my-0 fs-7">PPOB</p>
@@ -136,7 +136,7 @@ const WhatIsMuraKoin = (props) => {
                     </div>
                   </div>
                   <div className="col-6 mb-3">
-                    <div className="border-radius-24 bg-dark-blue" data-aos="fade-left">
+                    <div className="border-radius-24 bg-dark-blue">
                       <div className="rounded-pill bg-orange">
                         <p className="text-white fw-600 py-2 my-0 fs-7_5 lh-sm">Dompet Digital, <br /> Transfer Uang, E-Money</p>
                       </div>
@@ -148,7 +148,7 @@ const WhatIsMuraKoin = (props) => {
                       </div>
                     </div>
                   </div>
-                  <div className="col-6 mb-3" data-aos="fade-right">
+                  <div className="col-6 mb-3">
                     <div className="border-radius-24 bg-dark-blue">
                       <div className="rounded-pill bg-orange">
                         <p className="text-white fw-600 py-2 my-0 fs-7_5 lh-sm">Voucher Digital, <br /> &amp; Live Streaming</p>
@@ -161,7 +161,7 @@ const WhatIsMuraKoin = (props) => {
                       </div>
                     </div>
                   </div>
-                  <div className="col-6 mb-3" data-aos="fade-left">
+                  <div className="col-6 mb-3">
                     <div className="border-radius-24 bg-dark-blue">
                       <div className="rounded-pill bg-orange">
                         <p className="text-white fw-600 py-2 my-0 fs-7_5 lh-sm">Paket Data, <br /> Telepon &amp; SMS</p>
@@ -174,7 +174,7 @@ const WhatIsMuraKoin = (props) => {
                       </div>
                     </div>
                   </div>
-                  <div className="col-6 offset-3" data-aos="fade-up">
+                  <div className="col-6 offset-3">
                     <div className="border-radius-24 bg-dark-blue">
                       <div className="rounded-pill bg-orange">
                         <p className="text-white fs-6 fw-600 py-2 my-0 fs-7">Voucher Game</p>

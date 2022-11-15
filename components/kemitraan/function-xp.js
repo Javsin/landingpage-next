@@ -9,8 +9,8 @@ const FunctionXP = () => {
             <div className="row">
               <div className="col-10 offset-1">
                 <div className="border-radius-54 p-5 bg-blue">
-                  <h3 className="fs-2 text-orange fw-700 text-center" data-aos="fade-down">Apa itu XP?</h3>
-                  <p className="text-white px-5 fw-400 text-center" data-aos="fade-down">
+                  <h3 className="fs-3 text-orange fw-700 text-center">Apa itu XP?</h3>
+                  <p className="text-white px-5 fw-400 text-center fs-6">
                     XP (Experience Point) adalah poin yang Mitra peroleh setelah melakukan aktivitas tertentu di dalam
                     aplikasi MuraPay. Mitra harus mengumpulkan beberapa jumlah XP
                     sebagai syarat untuk naik level.
@@ -24,7 +24,7 @@ const FunctionXP = () => {
           <div className="container">
             <div className="row">
               <div className="col-12 text-center" id="function-xp">
-                <h3 className="fs-2 text-orange fw-700">Apa Fungsi dari XP?</h3>
+                <h3 className="fs-3 text-orange fw-700">Apa Fungsi dari XP?</h3>
               </div>
               <div className="col-8 offset-2">
                 <p className="px-5 fw-400 text-center text-dark-blue">
@@ -32,7 +32,7 @@ const FunctionXP = () => {
                 </p>
               </div>
               <div className="col-12 text-center mt-3" id="get-xp">
-                <h3 className="fs-2 text-orange fw-700">Bagaimana Cara Memperoleh XP?</h3>
+                <h3 className="fs-3 text-orange fw-700">Bagaimana Cara Memperoleh XP?</h3>
               </div>
               <div className="col-8 offset-2">
                 <p className="px-5 fw-400 text-center text-dark-blue">

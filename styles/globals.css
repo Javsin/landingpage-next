@@ -360,6 +360,10 @@ body {
   border-color: #35AB56 !important;
 }
 
+.check-partnership .form-check-input {
+  border: 1px solid #d3d3d3 !important;
+}
+
 .form-check-input[type=checkbox] {
   outline: none !important;
   box-shadow: none !important;

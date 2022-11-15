@@ -13,7 +13,7 @@ const Goal = () => {
                             <p className="text-white fw-400 mx-5">Tujuan yang ingin dicapai dengan adanya program kerja sama ini <br/> adalah sebagai berikut:</p>
                         </div>
                         <div className="col-12 mb-3">
-                            <div className="border-radius-elips p-3 bg-gradient-blue">
+                            <div className="border-radius-elips p-3 bg-gradient-blue" data-aos="fade-right">
                                 <div className="row d-flex gx-5">
                                     <div className='col-3'>
                                         <Image src={icon_1} className='img-fluid' alt='img-goal-1' loading='lazy'/>
@@ -25,7 +25,7 @@ const Goal = () => {
                             </div>
                         </div> 
                         <div className="col-12 mb-3">
-                            <div className="border-radius-elips p-3 bg-gradient-blue-reverse">
+                            <div className="border-radius-elips p-3 bg-gradient-blue-reverse" data-aos="fade-left" data-aos-delay="300">
                                 <div className="row d-flex gx-5">
                                     <div className='col-9 align-self-center'>
                                         <p className="text-white fw-400 text-end">Menyediakan pelayanan berupa transaksi <br/>
@@ -38,7 +38,7 @@ const Goal = () => {
                             </div>
                         </div>
                         <div className="col-12">
-                            <div className="border-radius-elips p-3 bg-gradient-blue">
+                            <div className="border-radius-elips p-3 bg-gradient-blue" data-aos="fade-right" data-aos-delay="600">
                                 <div className="row d-flex gx-5">
                                     <div className='col-3'>
                                         <Image src={icon_3} className='img-fluid' alt='img-goal-3' loading='lazy'/>

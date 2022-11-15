@@ -4,6 +4,7 @@ import { useEffect } from "react";
 const Navbar = (props) => {
     const router = useRouter();
     useEffect(() => {
+      console.log(props)
       const select = (el, all = false) => {
         try {
           el = el.trim();
