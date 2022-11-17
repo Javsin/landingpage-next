@@ -114,7 +114,7 @@ const Footer = () => {
             </div>
             <div className="col-5">
               <div className="d-flex flex-column align-self-center">
-                <span className="text-white fw-bolder fs-6">MuraPay</span>
+                <span className="text-white fw-bolder" style={{fontSize : '1rem'}}>MuraPay</span>
               </div>
             </div>
             <div className="col-5">
