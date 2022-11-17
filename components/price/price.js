@@ -14,7 +14,7 @@ const Price = ({produk}) => {
                 <div className="d-none d-md-block">
                     <div className="tabcustom text-center">
                         <ul className="nav nav-pills justify-content-center" id="pills-tab" role="tablist">
-                            {data.map((item, index) => {
+                            {data?.map((item, index) => {
                                 return (
                                     <li key={index} className="nav-item flex-fill" role="presentation">
                                         <a className={"nav-link" + (index == 0 ? ' active' : '' )} id={'pills-'+index+'-tab'} data-bs-toggle="pill" data-bs-target={'#pills-'+index} role="tab" aria-controls={'pills-'+index} aria-selected="true">{item.kategori}</a>
@@ -25,7 +25,7 @@ const Price = ({produk}) => {
                     </div>
                     <div className="tab-content" id="pills-tabContent">
                         {
-                            data.map((item, index) => {
+                            data?.map((item, index) => {
                                 return (
                                     <div key={index} className={'tab-pane'+(index == 0 ? ' active show' : '')} id={'pills-'+index} role="tabpanel" aria-labelledby={`pills-${index}-tab`}>
                                         {
@@ -86,7 +86,7 @@ const Price = ({produk}) => {
                 <div className="d-block d-md-none">
                     <div className="accordion accordion-flush custom-accordion" id="accordionFlushExample">
                         {
-                            data.map((item, index) => {
+                            data?.map((item, index) => {
                                 return (
                                 <div className="accordion-item mb-2" key={index}>
                                     <h2 className="accordion-header" id={'flush-heading'+index}>
