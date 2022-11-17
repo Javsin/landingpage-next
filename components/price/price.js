@@ -1,99 +1,15 @@
-import { useEffect,useState } from "react";
-const Price = () => {
-    const [data, setData] = useState([]);
-    useEffect(() => {
-        let data_produk = [
-            {
-                kategori: "Pulsa",
-                data: [
-                    {
-                        operator: "Indosat",
-                        detail : [
-                            {
-                                kode : "IND10",
-                                nama : "Indosat 10.000",
-                                warga : "Rp. 10.000",
-                                pedagang : "Rp. 9.000",
-                                juragan : "Rp. 8.000",
-                                saudagar : "Rp. 7.000",
-                                bosbesar : "Rp. 6.000",
-                                xp : 200
-                            },
-                            {
-                                kode : "IND20",
-                                nama : "Indosat 20.000",
-                                warga : "Rp. 20.000",
-                                pedagang : "Rp. 19.000",
-                                juragan : "Rp. 18.000",
-                                saudagar : "Rp. 17.000",
-                                bosbesar : "Rp. 16.000",
-                                xp : 200
-                            }
-                        ]
-                    },
-                    {
-                        operator: "Telkomsel",
-                        detail : [
-                            {
-                                kode : "TLK10",
-                                nama : "Telkomsel 10.000",
-                                warga : "Rp. 10.000",
-                                pedagang : "Rp. 9.000",
-                                juragan : "Rp. 8.000",
-                                saudagar : "Rp. 7.000",
-                                bosbesar : "Rp. 6.000",
-                                xp : 200
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                kategori: "Paket Data",
-                data: [
-                    {
-                        operator: "Telkomsel",
-                        detail : [
-                            {
-                                kode : "TSEL10",
-                                nama : "BRONET OWSEM 4GB | 1GB(3G/4G)+1GB(4G)+2GB(Games+Musik), 24 Jam |30 Hari| AOV+FREE FIRE+JOOX",
-                                warga : "Rp. 10.000",
-                                pedagang : "Rp. 9.000",
-                                juragan : "Rp. 8.000",
-                                saudagar : "Rp. 7.000",
-                                bosbesar : "Rp. 6.000",
-                                xp : 200
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                kategori: "Paket Telepon",
-                data: [
-                    {
-                        operator: "Telkomsel",
-                        detail : [
-                            {
-                                kode : "TSEL10",
-                                nama : "TLP 30 menit ALL OPERATOR 24 Jam 7 hari",
-                                warga : "Rp. 10.000",
-                                pedagang : "Rp. 9.000",
-                                juragan : "Rp. 8.000",
-                                saudagar : "Rp. 7.000",
-                                bosbesar : "Rp. 6.000",
-                                xp : 200
-                            }
-                        ]
-                    }
-                ]
-            },
-        ]
-        setData(data_produk);
-    }, []);
+import { useRef,useState,useEffect } from "react";
+const Price = ({produk}) => {
+    const [data, setData] = useState(produk);
+    const el = useRef(null);
+    const scroll = (index) => {
+        if(index > 0){
+            el.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+    }
     return (
-        <section className="produk bg-white mt-5" id="produk">
-            <div className="container">
+        <section className="produk bg-white mt-5" id="produk" ref={el}>
+            <div className="container" >
                 <h3 className="text-dark-blue fw-700 mb-4 text-center">Harga Produk</h3>
                 <div className="d-none d-md-block">
                     <div className="tabcustom text-center">
@@ -127,7 +43,7 @@ const Price = () => {
                                                                 <table className="table">
                                                                     <thead className="bg-blue-2 text-orange fs-6_5">
                                                                         <tr>                                                                           
-                                                                            <th scope="col" width="40%">Nama Produk</th>
+                                                                            <th scope="col">Nama Produk</th>
                                                                             <th scope="col">Warga</th>
                                                                             <th scope="col">Pedagang</th>
                                                                             <th scope="col">Juragan</th>
@@ -142,12 +58,12 @@ const Price = () => {
                                                                                 return (
                                                                                     <tr key={index3}>                                                                                       
                                                                                         <td>{item3.nama}</td>
-                                                                                        <td>{item3.warga}</td>
-                                                                                        <td>{item3.pedagang}</td>
-                                                                                        <td>{item3.juragan}</td>
-                                                                                        <td>{item3.saudagar}</td>
-                                                                                        <td>{item3.bosbesar}</td>
-                                                                                        <td>{item3.xp}</td>
+                                                                                        <td>{item3.harga_warga}</td>
+                                                                                        <td>{item3.harga_pedagang}</td>
+                                                                                        <td>{item3.harga_juragan}</td>
+                                                                                        <td>{item3.harga_saudagar}</td>
+                                                                                        <td>{item3.harga_bosbesar}</td>
+                                                                                        <td>{item3.XP}</td>
                                                                                     </tr>
                                                                                 )
                                                                             })
@@ -174,7 +90,7 @@ const Price = () => {
                                 return (
                                 <div className="accordion-item mb-2" key={index}>
                                     <h2 className="accordion-header" id={'flush-heading'+index}>
-                                    <button className={'accordion-button fw-700 text-orange'+(index > 0 ? ' collapsed' : '')} type="button" data-bs-toggle="collapse" data-bs-target={'#flush-collapse'+index} aria-expanded="false" aria-controls={'flush-collapse'+index}>
+                                    <button  onClick={ ()=>scroll(index) } className={'accordion-button fw-700 text-orange'+(index > 0 ? ' collapsed' : '')} type="button" data-bs-toggle="collapse" data-bs-target={'#flush-collapse'+index} aria-expanded="false" aria-controls={'flush-collapse'+index}>
                                         <div className="row w-100 d-flex">
                                             <div className="col-12 align-self-center fs-6">
                                                 {item.kategori}
@@ -216,18 +132,18 @@ const Price = () => {
                                                                                         </thead>
                                                                                         <tbody className="text-white fs-7 fw-500">
                                                                                             <tr>
-                                                                                                <th className="fw-400">{item3.warga}</th>
-                                                                                                <td>{item3.pedagang}</td>
-                                                                                                <td>{item3.juragan}</td>
-                                                                                                <td>{item3.saudagar}</td>
-                                                                                                <td>{item3.bosbesar}</td>
+                                                                                                <th className="fw-400">{item3.harga_warga}</th>
+                                                                                                <td>{item3.harga_pedagang}</td>
+                                                                                                <td>{item3.harga_juragan}</td>
+                                                                                                <td>{item3.harga_saudagar}</td>
+                                                                                                <td>{item3.harga_bosbesar}</td>
                                                                                             </tr>
                                                                                         </tbody>
                                                                                     </table>
                                                                                 </div>
                                                                             </div>
                                                                             <div className="col-12 mt-2">
-                                                                                <p className="my-0 fs-7 text-orange">(+{item3.xp}XP)</p>
+                                                                                <p className="my-0 fs-7 text-orange">(+{item3.XP}XP)</p>
                                                                             </div>
                                                                         </div>   
                                                                     </div>

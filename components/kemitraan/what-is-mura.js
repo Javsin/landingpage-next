@@ -13,7 +13,7 @@ const WhatIsMura = (props) => {
                 <div className="row">
                     <div className="col-lg-6 offset-lg-3 d-flex justify-content-center px-0">
                         <a onClick={props.openBootstrapModal} className="youtube">
-                            <Image src = {image1} className={styles.thumbnail_video} unoptimized={true}/>
+                            <Image src = {image1} className={styles.thumbnail_video} quality={90}/>
                         </a>
                     </div>
                 </div>

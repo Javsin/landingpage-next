@@ -12,7 +12,7 @@ const Banner = () => {
                                 <div className='col-4'>
                                     <div className='position-relative'>
                                         <Image src={Circle} className='img-fluid' alt='img-banner-1' loading="lazy"  />
-                                        <Image src={Mbakmbak} className='img-banner-partner' alt='img-banner-2' unoptimized={true} loading="lazy" />
+                                        <Image src={Mbakmbak} className='img-banner-partner' alt='img-banner-2' quality={80} loading="lazy" />
                                     </div>
                                 </div>
                                 <div className='col-8 align-self-center'>

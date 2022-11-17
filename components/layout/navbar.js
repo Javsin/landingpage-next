@@ -4,7 +4,6 @@ import { useEffect } from "react";
 const Navbar = (props) => {
     const router = useRouter();
     useEffect(() => {
-      console.log(props)
       const select = (el, all = false) => {
         try {
           el = el.trim();
@@ -57,7 +56,6 @@ const Navbar = (props) => {
   
       const el_toggle = document.querySelector(".mobile-nav-toggle");
       el_toggle.addEventListener("click", (e) => {
-        console.log("click");
         document.getElementById("navbar").classList.toggle("navbar-mobile");
         el_toggle.classList.toggle("bi-list");
         el_toggle.classList.toggle("bi-x");

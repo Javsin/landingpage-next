@@ -12,7 +12,7 @@ const Excellence = () => {
                             <h3 className="fs-3 fw-700 text-orange">Tujuan Program</h3>
                         </div>
                         <div className="col-4 text-center">
-                            <Image src={icon_1} className="img-fluid" unoptimized={true} alt="benefit-partnership-1" loading='lazy'/>
+                            <Image src={icon_1} className="img-fluid" quality={80} alt="benefit-partnership-1" loading='lazy'/>
                             <p className="text-white fw-500">Menambah <br/>Pasar Baru</p>
                             <hr style={{border: '1px solid #4B598E;margin-left:8rem;margin-right:8rem'}}/>
                             <p className="mx-5 fs-6_5 fw-400 text-white">Perluas jangkauan Dealer ke
@@ -22,7 +22,7 @@ const Excellence = () => {
                             </p>
                         </div>  
                         <div className="col-4 text-center">
-                            <Image src={icon_2} className="img-fluid" unoptimized={true} alt="benefit-partnership-2" loading='lazy'/>
+                            <Image src={icon_2} className="img-fluid" quality={80} alt="benefit-partnership-2" loading='lazy'/>
                             <p className="text-white fw-500">Push Selling<br/>dalam Aplikasi</p>
                             <hr style={{border: '1px solid #4B598E;margin-left:8rem;margin-right:8rem'}}/>
                             <p className="mx-5 fs-6_5 fw-400 text-white">Tingkatkan transaksi inner Dealer
@@ -31,7 +31,7 @@ const Excellence = () => {
                             </p>
                         </div>   
                         <div className="col-4 text-center">
-                            <Image src={icon_3} className="img-fluid" unoptimized={true} alt="benefit-partnership-3" loading='lazy'/>
+                            <Image src={icon_3} className="img-fluid" quality={80} alt="benefit-partnership-3" loading='lazy'/>
                             <p className="text-white fw-500">Menawarkan Pilihan<br/>Produk Beragam</p>
                             <hr style={{border: '1px solid #4B598E;margin-left:8rem;margin-right:8rem'}}/>
                             <p className="mx-5 fs-6_5 fw-400 text-white">Lebih mudah menarik pengguna baru

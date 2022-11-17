@@ -42,7 +42,7 @@ const PeerReward = (props) => {
             </div>
             <div className="col-6 px-5 pb-5">
                 <a onClick={props.openBootstrapModal} className="youtube">
-                    <Image src = {image1} className={styles.thumbnail_video} unoptimized={true}/>
+                    <Image src = {image1} className={styles.thumbnail_video} quality={90}/>
                 </a>
             </div>
           </div>

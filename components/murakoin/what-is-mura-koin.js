@@ -9,7 +9,7 @@ const WhatIsMuraKoin = (props) => {
             <div className="row d-flex">
               <div className="col-5">
                 <a onClick={props.openBootstrapModal} className="youtube">
-                    <Image src = {image1} className={styles.thumbnail_video} unoptimized={true}/>
+                    <Image src = {image1} className={styles.thumbnail_video} quality={90}/>
                 </a>
               </div>
               <div className="col-7 align-self-center">
