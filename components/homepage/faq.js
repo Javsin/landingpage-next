@@ -1,5 +1,5 @@
 import Image from "next/image";
-import image1 from "../../public/img/new/thumbnail.jpg";
+import image1 from "../../public/img/new/Thumbnaildashboard.png";
 import styles from '../../styles/addons.module.css'
 const FAQ = () => {
     return (
@@ -50,7 +50,7 @@ const FAQ = () => {
             </div>
             <div className="col-xl-5 col-lg-6 py-0 py-md-5" data-aos="fade-right">
               <a className="youtube" data-bs-toggle="modal" data-bs-target="#video">
-                <Image src={image1} className={styles.thumbnail_video} unoptimized={true}/>
+                <Image src={image1} className={styles.thumbnail_video}/>
               </a>
             </div>
           </div>

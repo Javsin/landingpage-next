@@ -23,7 +23,7 @@ const Benefit = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-12 text-center mb-4">
-                    <h4 className="text-orange fs-2 fw-700">Benefit per Level</h4>
+                    <h4 className="text-orange fs-3 fw-700">Benefit per Level</h4>
                     </div>
                     <div className="col-12">
                     <div className="row">

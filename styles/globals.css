@@ -23,9 +23,10 @@ body {
   font-family: "Poppins", sans-serif;
   color: #444444;
 }
-
 /* custom css sendiri */
-
+.table-scroll::-webkit-scrollbar {
+  display: none;
+}
 .daftar-isi a:hover{
   color : #2A3251;
 }
@@ -38,6 +39,18 @@ body {
 }
 .daftar-isi ol li ::marker{
   text-align: left !important;
+}
+
+.w-55{
+  width: 55% !important;
+}
+
+.fs-normal{
+  font-size: 1rem !important;
+}
+
+.fs-6_5{
+  font-size: 0.9rem!important;
 }
 
 .fs-7{
@@ -68,6 +81,9 @@ body {
   font-weight: 400;
 }
 
+.fw-300 {
+  font-weight: 300;
+}
 .border-dark-blue{
   border: 2px solid #2A3251;
 }
@@ -129,6 +145,10 @@ body {
   border-radius: 54px;
 }
 
+.border-radius-elips {
+  border-radius: 12rem;
+}
+
 .border-radius-24 {
   border-radius: 24px;
 }
@@ -167,6 +187,28 @@ body {
   border-radius: 0 0 54px 54px;
 }
 
+.border-radius-1{
+  border-radius: 2rem;
+}
+
+.border-radius-1-top {
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+}
+
+.border-radius-1-bottom {
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+}
+
+.card-sangkar-burung{
+  box-sizing: border-box;
+  width: 300px;
+  background: #313C63;
+  box-shadow: 8px 12px 14px rgba(13, 18, 37, 0.5);
+  border-radius: 180px 180px 25px 25px;
+}
+
 .bg-light-gray {
   background-color: #EFEFEF;
 }
@@ -179,6 +221,18 @@ body {
   background: #E4E4E4;
 }
 
+.bg-gradient-blue{
+  background: linear-gradient(90deg, #262F54 30.36%, rgba(38, 47, 84, 0) 97.24%) !important;
+}
+
+.bg-gradient-blue-reverse {
+  background: linear-gradient(270deg, #262F54 30.11%, rgba(38, 47, 84, 0) 96.44%) !important;
+}
+
+.bg-gradient-white{
+  background: linear-gradient(180deg, #FEFEFE 0%, #CFCFCF 121.27%);
+}
+
 .bg-dark-blue{
   background: #2A3251 !important;
 }
@@ -187,8 +241,28 @@ body {
   background: #414B73 !important;
 }
 
-.bg-blue2{
-  background: #38426C !important;
+.bg-blue-2{
+  background: #17244B !important;
+}
+
+.bg-blue-3{
+  background: #0f162f52 !important;
+}
+
+.bg-blue-4{
+  background: #181F3A !important;
+} 
+
+.bg-blue-5{
+  background: #323D65 !important;
+} 
+
+.bg-blue-6{
+  background: #1D2544 !important;
+}
+
+.bg-blue-7{
+  background: #2D3659 !important;
 }
 
 .bg-orange{
@@ -266,6 +340,50 @@ body {
   cursor: pointer;
 }
 
+.img-banner-partner{
+  position: absolute;
+  left : 2rem;
+  top : -3rem;
+}
+
+.cakupan-partnership ul{
+  list-style: none;
+}
+
+.cakupan-partnership ul li::before {
+  content: "●";
+  color: #F37020;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1.5em;
+}
+
+.check-partnership .form-check-input:checked {
+  background-color: #35AB56 !important;
+  border-color: #35AB56 !important;
+}
+
+.check-partnership .form-check-input {
+  border: 1px solid #d3d3d3 !important;
+}
+
+.form-check-input[type=checkbox] {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.form-control:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border: 1px solid #d3d3d3 !important;
+}
+textarea:focus{
+  border: 1px solid #d3d3d3 !important;
+}
+
+#nprogress .spinner {
+  display: none !important;
+}
 /* end custom sendiri */
 
 a {
@@ -370,11 +488,46 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Disable AOS delay on mobile
+# custom mobile
 --------------------------------------------------------------*/
 @media screen and (max-width: 768px) {
   [data-aos-delay] {
     transition-delay: 0 !important;
+  }
+  .fs-6 {
+    font-size: 0.875rem !important;
+  }
+  .fs-6_5 {
+    font-size: 0.875rem !important;
+  }
+  .fs-normal {
+    font-size: 1rem !important;
+  }
+  #hero_ku_partner {
+    width: 100%;
+    background-image: url("../public/img/new/bg-partner-mobile.png") !important;
+    background-size: cover ;
+    background-color: #21284d;
+    position: relative;
+    background-blend-mode: overlay;
+  }
+  .card-sangkar-burung{
+    box-sizing: border-box;
+    width: 300px;
+    background: #313C63;
+    box-shadow: 8px 12px 14px rgba(13, 18, 37, 0.5);
+    border-radius: 1rem !important
+  }
+  .card-sangkar-burung img{
+    border-radius: 0.8rem !important;
+  }
+  #form_partner {
+    width: 100%;
+    background-image: url("../public/img/new/bg-form-partner-mobile.png");
+    background-size: cover ;
+    background-color: #21284d;
+    position: relative;
+    background-blend-mode: overlay;
   }
 }
 
@@ -387,7 +540,7 @@ h6 {
   z-index: 997;
   transition: all 0.5s;
   /* background: rgba(1, 4, 136, 0.9); */
-  background: rgba(44, 50, 82, 0.97);
+  background: #1D2544;
 }
 
 #header.header-transparent {
@@ -396,7 +549,7 @@ h6 {
 
 #header.header-scrolled {
   /* background: rgba(1, 4, 136, 0.9); */
-  background: rgba(44, 50, 82, 0.97);
+  background: #1D2544;
   height: 60px;
 }
 
@@ -751,6 +904,24 @@ h6 {
   background: url("../public/img/new/pattern\ 1.png") no-repeat center;
   background-size: 100% 75%;
   position: relative;
+}
+
+#hero_ku_partner {
+  width: 100%;
+  background-image: url("../public/img/new/bg-partner.png");
+  background-size: cover ;
+  background-color: #21284d;
+  position: relative;
+  background-blend-mode: overlay;
+}
+
+#form_partner {
+  width: 100%;
+  background-image: url("../public/img/new/bg-form-partner.png");
+  background-size: cover ;
+  background-color: #21284d;
+  position: relative;
+  background-blend-mode: overlay;
 }
 
 #hero_ku:before {
@@ -2157,6 +2328,34 @@ section {
   color: #fff;
 }
 
+.tabcustom .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #F37020 !important;
+  background-color: #17244B !important;
+  content: "";
+  display: block;
+  border-bottom: 3px solid #F37020;
+  width: 90%;
+  margin: auto;
+  margin-bottom: -1px;
+  border-radius: 0 !important ;
+}
+.nav-pills .nav-link {
+  background: 0 0;
+  border: 0;
+  border-radius: 0.375rem;
+}
+.tabcustom a{
+  font-size: 0.9rem!important;
+  text-decoration: none;
+  color: #FFFF !important;
+  cursor: pointer;
+  font-weight: 600;
+}
+.tabcustom{
+  background-color: #17244B;
+  border-radius: 0.375rem;
+}
+
 @media (max-width: 575px) {
   #footer .footer-top .footer-info {
     margin: -20px 0 30px 0;
@@ -2172,6 +2371,53 @@ section {
   -webkit-animation: fade-up 0.5s ease forwards;
   animation: fade-up 0.5s ease forwards;
 }
+
+.table-scroll {
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  margin: auto;
+  overflow: auto;
+  height: auto;
+}
+.table-scroll table {
+  width: 100%;
+  min-width: 400px;
+  margin: auto;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+.table-scroll th,
+.table-scroll td {
+  padding: 5px 10px;
+  vertical-align: middle !important;
+}
+.table-scroll thead th {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+.table-scroll tfoot,
+.table-scroll tfoot th,
+.table-scroll tfoot td {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+  z-index: 4;
+}
+
+.table-scroll th:first-child {
+  position: -webkit-sticky;
+  position: sticky;
+  left: -1px;
+  z-index: 2;
+  background: #17244B;
+}
+.table-scroll thead th:first-child,
+.table-scroll tfoot th:first-child {
+  z-index: 5;
+}
+
 
 @keyframes fade-up {
   0% {

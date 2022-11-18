@@ -4,11 +4,11 @@ const DaftarIsi = () => {
             <div className="container">
                 <div className="row px-4">
                     <div className="col-lg-8 offset-lg-2 bg-light-gray border-radius-54-top px-5 py-4 border-dark-blue">
-                    <h5 className="text-dark-blue my-2 fw-700 fs-4">Daftar Isi
+                    <h5 className="text-dark-blue my-2 fw-700 fs-3">Daftar Isi
                     </h5>
                     </div>
                     <div className="col-lg-8 offset-lg-2 bg-light-gray border-radius-54-bottom px-5 py-4 border-dark-blue-bottom">
-                    <ol className="text-dark-blue fs-5 px-3">
+                    <ol className="text-dark-blue fs-6 px-3">
                         <li className="fw-400 text-dark-blue">
                         <a href="#what-is-mitramura" className="text-dark-blue">Apa Itu MitraMura?</a>
                         </li>

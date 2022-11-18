@@ -8,16 +8,16 @@ const LevelMitra = (props) => {
             <section id="level-kemitraan" className="level-kemitraan">
             <div className="container">
                 <div className="row">
-                <div className="col-lg-6 offset-lg-3 d-flex justify-content-center px-0" data-aos="fade-right">
+                <div className="col-lg-6 offset-lg-3 d-flex justify-content-center px-0">
                     <a onClick={props.openBootstrapModal} className="youtube">
-                        <Image src = {image1} className={styles.thumbnail_video} unoptimized={true}/>
+                        <Image src = {image1} className={styles.thumbnail_video} quality={90}/>
                     </a>
                 </div>
-                <div className="col-12 text-center pt-5" data-aos="fade-right">
-                    <h4 className="text-orange fs-2 fw-700">Apa Saja Level Kemitraan di MitraMura?</h4>
+                <div className="col-12 text-center pt-5">
+                    <h4 className="text-orange fs-3 fw-700">Apa Saja Level Kemitraan di MitraMura?</h4>
                 </div>
-                <div className="col-10 offset-1" data-aos="fade-right">
-                    <p className="fs-5 text-dark-blue fw-400 text-center mb-0">
+                <div className="col-10 offset-1">
+                    <p className="fs-6 text-dark-blue fw-400 text-center mb-0">
                     Ada 5 (lima) level kemitraan yang bisa Mitra tingkatkan untuk meraih keuntungan maksimal
                     dengan cara memenuhi persyaratan minimum XP yang sudah ditentukan di tiap levelnya.
                     </p>

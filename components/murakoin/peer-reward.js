@@ -3,10 +3,10 @@ import image1 from '../../public/img/new/thumbnail.jpg'
 import styles from '../../styles/addons.module.css'
 const PeerReward = (props) => {
     return (
-    <section className="peer-reward bg-blue2" id="peer-reward">
+    <section className="peer-reward bg-dark-blue" id="peer-reward">
         <div className="container">
           <div className="row">
-            <div className="col-6" data-aos="zoom-out">
+            <div className="col-6">
               <h3 className="fs-3 fw-700 text-orange">
                 Apa itu Peer Reward?
               </h3>
@@ -40,9 +40,9 @@ const PeerReward = (props) => {
                 </div>
               </div>
             </div>
-            <div className="col-6 px-5 pb-5" data-aos="zoom-out">
+            <div className="col-6 px-5 pb-5">
                 <a onClick={props.openBootstrapModal} className="youtube">
-                    <Image src = {image1} className={styles.thumbnail_video} unoptimized={true}/>
+                    <Image src = {image1} className={styles.thumbnail_video} quality={90}/>
                 </a>
             </div>
           </div>

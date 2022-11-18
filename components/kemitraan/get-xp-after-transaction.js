@@ -144,7 +144,7 @@ const get_xp_after_transaction = () => {
           </div>
         </section>
         <section id="mura_koin" className="mura_koin bg-blue">
-          <div className="col-4 offset-4 d-flex mt-3 px-5">
+          <div className="col-xxl-4 offset-xxl-4 col-6 offset-3 d-flex mt-3 px-5">
             <Link href="/murakoin">
               <a className="mura-koin w-100 bg-orange text-white fw-700 btn border-radius-24 justify-content-center py-3 fs-4 mx-5">Apa itu MuraKoin?</a>
             </Link>
