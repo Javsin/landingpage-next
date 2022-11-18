@@ -11,6 +11,7 @@ const Form_partner = () => {
     const [whatsApp, setWhatsApp] = useState(false);
     const [loading, setLoading] = useState(false);
     const [showmessage, setShowmessage] = useState(false);
+    const [stringmessage, setStringmessage] = useState("");
     const send = () => {
         setLoading(true);
         axios.post (`${process.env.api}partner`, {
@@ -22,6 +23,7 @@ const Form_partner = () => {
             address: address,
             whatsApp:  Boolean(whatsApp)
         }).then((response) => {
+            response.data.status === 200 ? setStringmessage("Penawaran berhasil di kirim") : setStringmessage("Gagal mengirim penawaran, hubungi kami lewat whatsapp");
             setLoading(false);
             reset_form();
             setShowmessage(true);
@@ -76,7 +78,7 @@ const Form_partner = () => {
                                                     <div class="bg-orange rounded text-white p-2 mb-3 fs-6">
                                                         <div className="row">
                                                             <div className="col-10">
-                                                                Penawaran berhasil di kirim
+                                                                {stringmessage}
                                                             </div>
                                                             <div className="col-2 text-end">
                                                                 <svg xmlns="http://www.w3.org/2000/svg" width={26} height={26} fill="currentColor" className="bi bi-x" viewBox="0 0 16 16" style={{cursor:'pointer'}} onClick={()=>close_message()}>
