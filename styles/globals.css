@@ -1975,6 +1975,7 @@ section {
   padding: 0 30px;
   outline: none;
   cursor: pointer;
+  color: #343a40;
 }
 
 .faq .faq-list .icon-help {
