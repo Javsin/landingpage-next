@@ -27,12 +27,12 @@ const ModalVideo = (props) => {
                                 hasWindow && 
                                 <div className='player-wrapper'>
                                     <ReactPlayer
-                                    className='react-player'
-                                    url={props.url}
-                                    width='100%'
-                                    height='100%'
-                                    controls={true}
-                                    playing={play}  
+                                        className='react-player'
+                                        url={props.url}
+                                        width='100%'
+                                        height='100%'
+                                        controls={true}
+                                        playing={play}  
                                     />
                                 </div>
                             }

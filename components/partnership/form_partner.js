@@ -62,12 +62,12 @@ const Form_partner = () => {
                                     <div className="col-md-5 col-12 text-md-end text-center align-self-center py-4 py-md-0">
                                         <h3 className="fs-3 fw-700 text-orange d-md-block d-none">Jadilah Partner Dealer Kami!</h3>
                                         <h3 className="fs-normal fw-700 text-orange d-block d-md-none">Jadilah Partner Dealer Kami!</h3>
-                                        <p className="text-white fw-500 fs-6">
+                                        <p className="text-white fw-500 fs-normal">
                                             Silahkan isi form berikut ini untuk <br/>
                                             penjelasan lebih lanjut mengenai program <br/>
                                             Sinergi Peningkatan Transaksi Inner.
                                         </p>
-                                        <p className="text-orange fw-500 fs-6 my-0">
+                                        <p className="text-orange fw-500 fs-normal my-0">
                                             Tim kami akan segera menghubungi Anda.
                                         </p>
                                     </div>

@@ -14,7 +14,7 @@ const Goal = () => {
                         <div className="col-12 text-center">
                             <h3 className="fs-3 fw-700 text-orange">Tujuan Program</h3>
                             <p className="text-white fw-400 mx-5 d-none d-md-block">Tujuan yang ingin dicapai dengan adanya program kerja sama ini <br/> adalah sebagai berikut:</p>
-                            <p className="text-white fw-400 d-md-none d-block fs-6">Tujuan yang ingin dicapai dengan adanya program kerja sama ini adalah sebagai berikut:</p>
+                            <p className="text-white fw-400 d-md-none d-block fs-normal">Tujuan yang ingin dicapai dengan adanya program kerja sama ini adalah sebagai berikut:</p>
                         </div>
                         <div className="col-12 mb-3">
                             <div className="border-radius-elips p-3 bg-gradient-blue d-none d-md-block" data-aos="fade-right">
@@ -32,7 +32,7 @@ const Goal = () => {
                                     <Image src={icon_1_mobile} className='img-fluid' alt='img-goal-1' loading='lazy' quality={85}/>
                                 </div>
                                 <div className='col-12 text-center'>
-                                    <p className="text-white fw-400 fs-6">Meningkatkan transaksi inner Dealer.</p>
+                                    <p className="text-white fw-400 fs-normal">Meningkatkan transaksi inner Dealer.</p>
                                 </div>
                             </div>
                         </div> 
@@ -53,7 +53,7 @@ const Goal = () => {
                                     <Image src={icon_2_mobile} className='img-fluid' alt='img-goal-1' loading='lazy' quality={85}/>
                                 </div>
                                 <div className='col-12 text-center'>
-                                    <p className="text-white fw-400 fs-6">Menyediakan pelayanan berupa transaksi <br/>
+                                    <p className="text-white fw-400 fs-normal">Menyediakan pelayanan berupa transaksi <br/>
                                     cepat & harga bersaing bagi pengguna sesuai area.</p>
                                 </div>
                             </div>
@@ -78,7 +78,7 @@ const Goal = () => {
                                 <div className='col-12 text-center'>
                                     <Image src={icon_3_mobile} className='img-fluid' alt='img-goal-1' loading='lazy' quality={85}/>
                                 </div>
-                                <div className='col-12 text-center fs-6'>
+                                <div className='col-12 text-center fs-normal'>
                                     <p className="text-white fw-400">Menambah pasar baru untuk meningkatkan transaksi inner di wilayah dealer.</p>
                                     <p className='text-white my-0'> <svg xmlns="http://www.w3.org/2000/svg" width={25} height={25} fill="currentColor" className="bi bi-dot text-orange" viewBox="0 0 16 16">
                                         <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />

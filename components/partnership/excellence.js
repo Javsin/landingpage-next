@@ -9,7 +9,7 @@ const Excellence = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-12 text-center mb-5">
-                            <h3 className="fs-3 fw-700 text-orange">Tujuan Program</h3>
+                            <h3 className="fs-3 fw-700 text-orange">Keunggulan Program</h3>
                         </div>
                         <div className="col-md-4 col-12 text-center">
                             <Image src={icon_1} className="img-fluid" quality={80} alt="benefit-partnership-1" loading='lazy'/>
