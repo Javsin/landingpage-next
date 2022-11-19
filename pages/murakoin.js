@@ -11,9 +11,8 @@ export default function Kemitraan() {
         open_modal();
     }
     const open_modal = () => {
-        const myModal = new window.bootstrap.Modal(document.getElementById('video'), {
-        keyboard: false
-        });
+        const { Modal } = require("bootstrap");
+        const myModal = new Modal("#video");
         myModal.show();
     }
     useEffect(() => {
