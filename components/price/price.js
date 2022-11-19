@@ -11,8 +11,10 @@ const Price = ({produk}) => {
         'produk',
         () => produk,
         {
-            cacheTime: 30000,
             initialData: produk,
+            refetchOnWindowFocus: false,
+            cacheTime: 5000,
+            staleTime: 0,
         }
     )  
     return (
