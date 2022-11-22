@@ -534,6 +534,12 @@ h6 {
     position: relative;
     background-blend-mode: overlay;
   }
+  #header.header-scrolled {
+    /* background: rgba(1, 4, 136, 0.9); */
+    background: #1D2544;
+    height: 60px !important;
+    top: 0px !important;
+  }
 }
 
 /*--------------------------------------------------------------
