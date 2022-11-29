@@ -10,7 +10,7 @@ export default async function handler (req, res) {
     
     await axios(config)
       .then(function (response) {
-        res.status(200).json(response.data);
+        res.status(200).json(JSON.stringify(response.data));
     }).catch(function (error) {
         res.status(500).json(error);
     });  

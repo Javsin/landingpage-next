@@ -13,11 +13,25 @@ export default function Produk({data}) {
     );
 }
 export async function getServerSideProps() { 
-    let data = await axios.get (`${process.env.api}harga`)
-    .then(function (response) {
-        return response.data;
+    // let data = await axios.get (`${process.env.api}harga`)
+    // .then(function (response) {
+    //     return JSON.parse(response.data);
+    // }).catch(function (error) {
+    //     return error;
+    // });
+    let config = {
+        method: 'post',
+        url: `${process.env.api_external}harga`,
+        headers: { 
+            'Authorization': 'Bearer S3Cu121tyMur4p4YM4d3xByY4yS4ng3X'
+        }
+    };
+    
+    let data = await axios(config)
+      .then(function (response) {
+        return response.data
     }).catch(function (error) {
         return error;
-    });
+    });  
     return { props: { data } }
 }
