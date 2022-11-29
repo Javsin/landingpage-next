@@ -1,12 +1,22 @@
-import { useRef,useState,useEffect } from "react";
+import { useRef} from "react";
+import { useQuery } from 'react-query';
 const Price = ({produk}) => {
-    const [data, setData] = useState(produk);
     const el = useRef(null);
     const scroll = (index) => {
         if(index > 0){
             el.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
         }
     }
+    const { isLoading, isError, data , isFetching , isSuccess } = useQuery(
+        'produk',
+        () => produk,
+        {
+            initialData: produk,
+            refetchOnWindowFocus: false,
+            cacheTime: 5000,
+            staleTime: 0,
+        }
+    )  
     return (
         <section className="produk bg-white mt-5" id="produk" ref={el}>
             <div className="container" >

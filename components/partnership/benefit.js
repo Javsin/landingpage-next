@@ -21,7 +21,7 @@ const Benefit = () => {
                                 <h5 className='my-3 text-orange fw-500 mt-3 d-md-block d-none'>
                                   Fasilitas Saldo <br/>Talangan
                                 </h5>
-                                <h5 className='my-3 text-orange fw-500 mt-3 fs-normal d-block d-md-none'>
+                                <h5 className='my-3 text-orange fw-500 mt-3 fs-6 d-block d-md-none'>
                                   Fasilitas Saldo <br/>Talangan
                                 </h5>
                                 <p className='my-0 text-white fw-300 fs-6_5 mb-3'>
@@ -37,10 +37,10 @@ const Benefit = () => {
                                 <h5 className='my-3 text-orange fw-500 mt-3 d-none d-md-block'>
                                      Multi Saldo
                                 </h5>
-                                <h5 className='my-3 text-orange fw-500 mt-3 fs-normal d-block d-md-none'>
+                                <h5 className='my-3 text-orange fw-500 mt-3 fs-6 d-block d-md-none'>
                                      Multi Saldo
                                 </h5>
-                                <p className='my-0 text-white fw-300 fs-6_5 mb-3 pt-4'>
+                                <p className='my-0 text-white fw-300 fs-6_5 mb-3 pt-xxl-4 pt-0'>
                                     Pengguna dari jaringan Tim Sales Dealer akan mendapatkan 2 (dua) jenis saldo: Saldo Umum
                                     dan
                                     Saldo Dealer.
@@ -53,7 +53,7 @@ const Benefit = () => {
                                 <h5 className='my-3 text-orange fw-500 mt-3 d-none d-md-block'>
                                     Jalur Komunikasi <br/> Khusus
                                 </h5>
-                                <h5 className='my-3 text-orange fw-500 mt-3 fs-normal d-block d-md-none'>
+                                <h5 className='my-3 text-orange fw-500 mt-3 fs-6 d-block d-md-none'>
                                     Jalur Komunikasi <br/> Khusus
                                 </h5>
                                 <p className='my-0 text-white fw-300 fs-6_5 mb-3'>
@@ -69,7 +69,7 @@ const Benefit = () => {
                                 <h5 className='my-3 text-orange fw-500 mt-3 d-none d-md-block'>
                                     Kerja Sama Eksklusif <br/> di Area Dealer
                                 </h5>
-                                <h5 className='my-3 text-orange fw-500 mt-3 fs-normal d-block d-md-none'>
+                                <h5 className='my-3 text-orange fw-500 mt-3 fs-6 d-block d-md-none'>
                                     Kerja Sama Eksklusif <br/> di Area Dealer
                                 </h5>
                                 <p className='my-0 text-white fw-300 fs-6_5 mb-3'>
@@ -85,7 +85,7 @@ const Benefit = () => {
                                 <h5 className='my-3 text-orange fw-500 mt-3 d-none d-md-block'>
                                     Dukungan Materi<br/> Promosi untuk Tim Sales
                                 </h5>
-                                <h5 className='my-3 text-orange fw-500 mt-3 fs-normal d-block d-md-none'>
+                                <h5 className='my-3 text-orange fw-500 mt-3 fs-6 d-block d-md-none'>
                                     Dukungan Materi<br/> Promosi untuk Tim Sales
                                 </h5>
                                 <p className='my-0 text-white fw-300 fs-6_5 mb-3'>

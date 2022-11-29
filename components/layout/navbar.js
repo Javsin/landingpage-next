@@ -31,7 +31,7 @@ const Navbar = (props) => {
       const scrollValue = () => {
         const scroll = window.scrollY;
         const navbar = document.getElementById("header");
-        if (scroll > 100) {
+        if (scroll > 10) {
           navbar.classList.add("header-scrolled");
         } else {
           navbar.classList.remove("header-scrolled");

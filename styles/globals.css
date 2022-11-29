@@ -20,9 +20,10 @@
 --------------------------------------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif !important; 
   color: #444444;
 }
+
 /* custom css sendiri */
 .table-scroll::-webkit-scrollbar {
   display: none;
@@ -47,6 +48,10 @@ body {
 
 .fs-normal{
   font-size: 1rem !important;
+}
+
+.fs-medium{
+  font-size: 1.2rem !important;
 }
 
 .fs-6_5{
@@ -150,7 +155,7 @@ body {
 }
 
 .border-radius-24 {
-  border-radius: 24px;
+  border-radius: 24px !important;
 }
 
 .border-radius-24-top {
@@ -307,15 +312,15 @@ body {
   border: none !important;
 }
 .accordion-button::after {
-  flex-shrink: 0;
-  width: 1.25rem;
-  height: 1.25rem;
-  margin-left: auto;
-  content: "";
+  flex-shrink: 0 !important;
+  width: 1.25rem !important;
+  height: 1.25rem !important;
+  margin-left: auto !important;
+  content: "" !important;
   background-image: url('../public/img/icon/Vector\ \(1\).png') !important;
-  background-repeat: no-repeat;
-  background-size: 1rem;
-  transition: transform .2s ease-in-out;
+  background-repeat: no-repeat !important;
+  background-size: 1rem !important;
+  transition: transform .2s ease-in-out !important;
 }
 .accordion-button:not(.collapsed)::after {
   background-image: url('../public/img/icon/Vector\ \(1\).png') !important;
@@ -388,12 +393,12 @@ textarea:focus{
 
 a {
   color: #f16711;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 a:hover {
   color: #f37021;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 h1,
@@ -501,7 +506,7 @@ h6 {
     font-size: 0.875rem !important;
   }
   .fs-normal {
-    font-size: 1rem !important;
+    font-size: 0.875rem !important;
   }
   #hero_ku_partner {
     width: 100%;
@@ -529,6 +534,12 @@ h6 {
     position: relative;
     background-blend-mode: overlay;
   }
+  #header.header-scrolled {
+    /* background: rgba(1, 4, 136, 0.9); */
+    background: #1D2544;
+    height: 60px !important;
+    top: 0px !important;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -550,7 +561,8 @@ h6 {
 #header.header-scrolled {
   /* background: rgba(1, 4, 136, 0.9); */
   background: #1D2544;
-  height: 60px;
+  height: 0px;
+  top: -20px;
 }
 
 #header .logo h1 {
@@ -738,7 +750,7 @@ h6 {
 }
 
 .navbar-mobile {
-  position: fixed;
+  position: fixed !important;
   overflow: hidden;
   top: 0;
   right: 0;
@@ -1945,7 +1957,9 @@ section {
 .faq .faq-list {
   padding: 0;
 }
-
+.goblok:hover{
+  color: #f37021 !important;
+}
 .faq .faq-list ul {
   padding: 0;
   list-style: none;
@@ -1972,6 +1986,7 @@ section {
   padding: 0 30px;
   outline: none;
   cursor: pointer;
+  color: #343a40;
 }
 
 .faq .faq-list .icon-help {
@@ -2000,11 +2015,11 @@ section {
 }
 
 .faq .faq-list a.collapsed {
-  color: #343a40;
+  color: #343a40 !important;
 }
 
 .faq .faq-list a.collapsed:hover {
-  color: #f37021;
+  color: #f37021 !important;
 }
 
 .faq .faq-list a.collapsed .icon-show {
