@@ -7,11 +7,13 @@ export default async function handler (req, res) {
             'Authorization': 'Bearer S3Cu121tyMur4p4YM4d3xByY4yS4ng3X'
         }
     };
-    
     await axios(config)
       .then(function (response) {
+        
+        console.log(response)
         res.status(200).json(response.data);
     }).catch(function (error) {
+        //console.log(error)
         res.status(500).json(error);
     });  
 }

@@ -13,6 +13,7 @@ export default function Produk({data}) {
     );
 }
 export async function getServerSideProps() { 
+    console.log(process.env.api);
     let data = await axios.get (`${process.env.api}harga`)
     .then(function (response) {
         return response.data;
