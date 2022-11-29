@@ -15,7 +15,7 @@ export async function getServerSideProps({ req, res }) {
     )
     let data = await axios.get (`https://next.murapay.id/api/harga`)
     .then(function (response) {
-        return response.data;
+        return JSON.parse(response.data);
     }).catch(function (error) {
         return error;
     });
