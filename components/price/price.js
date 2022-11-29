@@ -1,12 +1,31 @@
 import { useRef,useState,useEffect } from "react";
-const Price = ({produk}) => {
-    const [data, setData] = useState(produk);
+import axios from "axios";
+const Price = () => {
+    const [data, setData] = useState([]);
     const el = useRef(null);
     const scroll = (index) => {
         if(index > 0){
             el.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
         }
     }
+    useEffect(() => {
+        async function fetchData() {
+            let config = {
+                method: 'post',
+                url: `${process.env.api_external}harga`,
+                headers: { 
+                    'Authorization': 'Bearer S3Cu121tyMur4p4YM4d3xByY4yS4ng3X'
+                }
+            };
+            let res = await axios(config)
+            .then(function (response) {
+                setData([...response.data])
+            }).catch(function (error) {
+                return error;
+            }); 
+        }
+        fetchData();
+    },[]);
     return (
         <section className="produk bg-white mt-5" id="produk" ref={el}>
             <div className="container" >
