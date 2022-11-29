@@ -3,9 +3,9 @@ const nextConfig = {
   reactStrictMode: false,
   swcMinify: true,
   env: {
-    api : "http://localhost:3000/api/",
-    api_external : "http://192.168.5.12:8085/api/external/",
-  }
-}
+    api: "https://sembarangan.my.id/api/",
+    api_external: "https://external.murapay.id:6585/api/external/",
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
