@@ -13,9 +13,9 @@ export async function getServerSideProps({ req, res }) {
         'Cache-Control',
         'public, s-maxage=10, stale-while-revalidate=59'
     )
-    let data = await axios.get (`https://next.murapay.id/api/harga`)
+    let data = await axios.get (`${process.env.api}harga`)
     .then(function (response) {
-        return JSON.parse(response.data);
+        return response.data;
     }).catch(function (error) {
         return error;
     });
