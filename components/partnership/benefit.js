@@ -58,8 +58,8 @@ const Benefit = () => {
                                 </h5>
                                 <p className='my-0 text-white fw-300 fs-6_5 mb-3'>
                                     Dapatkan support layanan dan
-                                    transaksi khusus bagi Dealer
-                                    melalui jalur komunikasi eksklusif.
+                                    troubleshooting khusus untuk Tim Sales 
+                                    Dealer melalui jalur komunikasi ekslusif.
                                 </p>
                             </div>
                         </div>
