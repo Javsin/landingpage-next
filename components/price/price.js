@@ -124,86 +124,100 @@ const Price = () => {
           )}
         </div>
         <div className="d-block d-md-none">
-          <div className="accordion accordion-flush custom-accordion" id="accordionFlushExample">
-            {data?.map((item, index) => {
-              return (
-                <div className="accordion-item mb-2" key={index}>
-                  <h2 className="accordion-header" id={"flush-heading" + index}>
-                    <button
-                      onClick={() => scroll(index)}
-                      className={"accordion-button fw-700 text-orange" + (index > 0 ? " collapsed" : "")}
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target={"#flush-collapse" + index}
-                      aria-expanded="false"
-                      aria-controls={"flush-collapse" + index}
-                    >
-                      <div className="row w-100 d-flex">
-                        <div className="col-12 align-self-center fs-6">{item.kategori}</div>
-                      </div>
-                    </button>
-                  </h2>
-                  <div id={"flush-collapse" + index} className={"accordion-collapse collapse" + (index == 0 ? " show" : "")} aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                    <div className="accordion-body pt-0 semi-dark px-0">
-                      {item.data.map((item2, index2) => {
-                        return (
-                          <div className="row py-3" key={index2}>
-                            <div className="col-6 offset-3 text-center mb-2">
-                              <div className="bg-orange py-0 rounded">
-                                <h4 className="fs-6_5 fw-600 my-0 text-white py-2">{item2.operator}</h4>
-                              </div>
-                            </div>
-                            {item2.detail.map((item3, index3) => {
-                              return (
-                                <div className="col-12 mb-2" key={index3}>
-                                  <div className="p-2 bg-light-gray rounded text-dark-blue fw-500">
-                                    <div className="row">
-                                      <div className="col-12 mb-1">
-                                        <p className="my-0 fs-7 fw-600 text-dark-blue">{item3.nama}</p>
-                                      </div>
-                                      <div className="col-12">
-                                        <div className="rounded bg-blue-2 py-2 table-scroll">
-                                          <table className="table">
-                                            <thead className="text-orange fs-7 fw-500">
-                                              <tr>
-                                                <th scope="col" className="fw-600">
-                                                  Warga
-                                                </th>
-                                                <th scope="col">Pedagang</th>
-                                                <th scope="col">Juragan</th>
-                                                <th scope="col">Saudagar</th>
-                                                <th scope="col">Bos Besar</th>
-                                              </tr>
-                                            </thead>
-                                            <tbody className="text-white fs-7 fw-500">
-                                              <tr>
-                                                <th className="fw-400">{item3.harga_warga}</th>
-                                                <td>{item3.harga_pedagang}</td>
-                                                <td>{item3.harga_juragan}</td>
-                                                <td>{item3.harga_saudagar}</td>
-                                                <td>{item3.harga_bosbesar}</td>
-                                              </tr>
-                                            </tbody>
-                                          </table>
-                                        </div>
-                                      </div>
-                                      <div className="col-12 mt-2">
-                                        <p className="my-0 fs-7 text-orange">(+{item3.XP}XP)</p>
-                                      </div>
-                                    </div>
+          {isLoading && (
+            <div className="row">
+              <div className="col-12 mb-5">
+                <Skeleton count={2} />
+              </div>
+              <div className="col-12">
+                <Skeleton count={10} />
+              </div>
+            </div>
+          )}
+           {!isLoading && (
+            <>
+              <div className="accordion accordion-flush custom-accordion" id="accordionFlushExample">
+                {data?.map((item, index) => {
+                  return (
+                    <div className="accordion-item mb-2" key={index}>
+                      <h2 className="accordion-header" id={"flush-heading" + index}>
+                        <button
+                          onClick={() => scroll(index)}
+                          className={"accordion-button fw-700 text-orange" + (index > 0 ? " collapsed" : "")}
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target={"#flush-collapse" + index}
+                          aria-expanded="false"
+                          aria-controls={"flush-collapse" + index}
+                        >
+                          <div className="row w-100 d-flex">
+                            <div className="col-12 align-self-center fs-6">{item.kategori}</div>
+                          </div>
+                        </button>
+                      </h2>
+                      <div id={"flush-collapse" + index} className={"accordion-collapse collapse" + (index == 0 ? " show" : "")} aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div className="accordion-body pt-0 semi-dark px-0">
+                          {item.data.map((item2, index2) => {
+                            return (
+                              <div className="row py-3" key={index2}>
+                                <div className="col-6 offset-3 text-center mb-2">
+                                  <div className="bg-orange py-0 rounded">
+                                    <h4 className="fs-6_5 fw-600 my-0 text-white py-2">{item2.operator}</h4>
                                   </div>
                                 </div>
-                              );
-                            })}
-                          </div>
-                        );
-                      })}
+                                {item2.detail.map((item3, index3) => {
+                                  return (
+                                    <div className="col-12 mb-2" key={index3}>
+                                      <div className="p-2 bg-light-gray rounded text-dark-blue fw-500">
+                                        <div className="row">
+                                          <div className="col-12 mb-1">
+                                            <p className="my-0 fs-7 fw-600 text-dark-blue">{item3.nama}</p>
+                                          </div>
+                                          <div className="col-12">
+                                            <div className="rounded bg-blue-2 py-2 table-scroll">
+                                              <table className="table">
+                                                <thead className="text-orange fs-7 fw-500">
+                                                  <tr>
+                                                    <th scope="col" className="fw-600">
+                                                      Warga
+                                                    </th>
+                                                    <th scope="col">Pedagang</th>
+                                                    <th scope="col">Juragan</th>
+                                                    <th scope="col">Saudagar</th>
+                                                    <th scope="col">Bos Besar</th>
+                                                  </tr>
+                                                </thead>
+                                                <tbody className="text-white fs-7 fw-500">
+                                                  <tr>
+                                                    <th className="fw-400">{item3.harga_warga}</th>
+                                                    <td>{item3.harga_pedagang}</td>
+                                                    <td>{item3.harga_juragan}</td>
+                                                    <td>{item3.harga_saudagar}</td>
+                                                    <td>{item3.harga_bosbesar}</td>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+                                            </div>
+                                          </div>
+                                          <div className="col-12 mt-2">
+                                            <p className="my-0 fs-7 text-orange">(+{item3.XP}XP)</p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  );
+                                })}
+                              </div>
+                            );
+                          })}
+                        </div>
+                      </div>
                     </div>
-                  </div>
-                </div>
-              );
-            })}
-          </div>
+                  );
+                })}
+              </div>
+            </>
+          )}
         </div>
       </div>
     </section>
