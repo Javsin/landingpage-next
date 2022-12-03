@@ -13,8 +13,6 @@ const Goal = () => {
                     <div className="row">
                         <div className="col-12 text-center">
                             <h3 className="fs-3 fw-700 text-orange">Tujuan Program</h3>
-                            <p className="text-white fw-400 mx-5 d-none d-md-block">Tujuan yang ingin dicapai dengan adanya program kerja sama ini <br/> adalah sebagai berikut:</p>
-                            <p className="text-white fw-400 d-md-none d-block fs-6">Tujuan yang ingin dicapai dengan adanya program kerja sama ini adalah sebagai berikut:</p>
                         </div>
                         <div className="col-12 mb-3">
                             <div className="border-radius-elips p-3 bg-gradient-blue d-none d-md-block" data-aos="fade-right">
@@ -40,8 +38,7 @@ const Goal = () => {
                             <div className="border-radius-elips p-3 bg-gradient-blue-reverse d-none d-md-block" data-aos="fade-left" data-aos-delay="300">
                                 <div className="row d-flex gx-5">
                                     <div className='col-9 align-self-center'>
-                                        <p className="text-white fw-400 text-end">Menyediakan pelayanan berupa transaksi <br/>
-                                        cepat & harga bersaing bagi pengguna sesuai area.</p>
+                                        <p className="text-white fw-400 text-end">Menyediakan pelayanan transaksi cepat & harga bersaing bagi pengguna sesuai area dealer.</p>
                                     </div>
                                     <div className='col-3'>
                                         <Image src={icon_2} className='img-fluid' alt='img-goal-2' loading='lazy'/>

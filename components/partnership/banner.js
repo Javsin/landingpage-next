@@ -17,8 +17,7 @@ const Banner = () => {
                                     </div>
                                 </div>
                                 <div className='col-8 align-self-center'>
-                                    <h1 className="text-orange lh-sm fw-bold">Proposal Program Sinergi <br/>
-                                    Peningkatan Transaksi Inner</h1>
+                                    <h1 className="text-orange lh-sm fw-bold">Program Sinergi Murapay dengan Dealer</h1>
                                 </div>
                             </div>
                         </div>

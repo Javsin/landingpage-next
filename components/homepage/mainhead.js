@@ -14,7 +14,7 @@ const Head = () => {
                     <span> Pelayanan Ramah</span>, dan
                     <span> Transaksi Aman</span>
                   </h1>
-                  <h2>Bangun usahamu sampai ke level tertinggi dengan harga terbaik, produk digital ter-update, dan pelayanan solutif.</h2>
+                  <h2>Bangun Usahamu sampai ke level tertinggi dengan harga terbaik, produk digital ter-update, dan pelayanan solutif.</h2>
                   <div className="text-center text-lg-start d-none d-md-block">
                     <div className='row'>
                         <div className='col-12'>
