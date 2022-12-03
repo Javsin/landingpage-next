@@ -27,6 +27,9 @@ body {
 .table-scroll::-webkit-scrollbar {
   display: none;
 }
+
+html {  scroll-behavior: auto !important;}
+
 .daftar-isi a:hover{
   color : #2A3251;
 }
