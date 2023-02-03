@@ -5,7 +5,7 @@ import Kami from "../../../public/img/about/kami.png";
 
 const TheTeam = () => {
   return (
-    <div className="row py-3">
+    <div className="row py-4">
       <div className="col-lg-6 col-12">
         <div className="d-flex flex-column align-items-start justify-content-center gap-2 ms-5 h-100">
           <Image src={GroupImage} alt="group" loading="lazy" className="img-fluid" />

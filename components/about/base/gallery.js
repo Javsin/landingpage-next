@@ -4,7 +4,7 @@ import GalleryImage from "../../../public/img/about/gallery.png";
 
 const Gallery = () => {
   return (
-    <div className="row py-3">
+    <div className="row py-4">
       <div className="col-12 mb-4">
         <h1 className="text-dark-blue text-center fw-700">GALERI</h1>
       </div>

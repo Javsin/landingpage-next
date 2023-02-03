@@ -4,15 +4,15 @@ import Kepin from "../../../public/img/about/kepin.png";
 const GetToKnow = () => {
   return (
     <>
-      <div className="row py-3">
-        <div className="col-2">
-          <div className="d-flex flex-column fw-bolder fs-1">
+      <div className="row py-4">
+        <div className="col-12 col-lg-2">
+          <div className="d-flex flex-row flex-lg-column gap-2 gap-lg-0 fw-bolder" style={{ fontSize: "2.9rem" }}>
             <span className="text-dark-blue">GET TO</span>
             <span className="text-orange">KNOW</span>
             <span className="text-dark-blue">US.</span>
           </div>
         </div>
-        <div className="col-10">
+        <div className="col-12 col-lg-10">
           <p>
             <strong>MuraPay</strong> (PT Pejuang Mandiri Kreatif) yang juga merupakan bagian dari <strong>Unitedtronik Group</strong> adalah perusahaan penyedia layanan penjualan dan pembelian produkproduk digital berbasis aplikasi yang
             berkantor pusat di Semarang, Jawa Tengah. Kami menyediakan beragam produk digital, mulai dari pulsa, paket data, PPOB, pembayaran tagihan, hingga transfer uang dengan fitur lengkap serta customer service yang siap melayani
