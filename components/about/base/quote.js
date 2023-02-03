@@ -10,7 +10,7 @@ const Quote = () => {
         <div className="col-md-6 col-12">
           <div className="d-flex flex-column align-items-start justify-content-center gap-2 ms-5 h-100">
             <Image src={QuoteIcon} alt="quote icon" loading="lazy" className="img-fluid" />
-            <div className="font-adobe fw-500 fs-3">
+            <div className="font-adobe fw-500 fs-3 text-dark-blue">
               <span className="d-block">There’s no magic formula for great company culture. The key is just to treat your staff,</span>
               <span className="d-block"> Just how you would like to be treated.</span>
             </div>
