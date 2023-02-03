@@ -4,7 +4,7 @@ import Kepin from "../../../public/img/about/kepin.png";
 const GetToKnow = () => {
   return (
     <>
-      <div className="row">
+      <div className="row py-3">
         <div className="col-2">
           <div className="d-flex flex-column fw-bolder fs-1">
             <span className="text-dark-blue">GET TO</span>
@@ -24,7 +24,7 @@ const GetToKnow = () => {
           </p>
         </div>
       </div>
-      <div className="row">
+      <div className="row py-3">
         <div className="col-12">
           <Image
             src={Kepin}
