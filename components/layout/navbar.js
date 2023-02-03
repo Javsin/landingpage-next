@@ -116,11 +116,6 @@ const Navbar = (props) => {
               </Link>
             </li>
             <li>
-              <Link href="/about">
-                <a className={router.pathname == "/about" ? "nav-link scrollto active" : "nav-link scrollto"}>MitraMura</a>
-              </Link>
-            </li>
-            <li>
               <Link href="/kemitraan">
                 <a className={router.pathname == "/kemitraan" ? "nav-link scrollto active" : "nav-link scrollto"}>Kemitraan</a>
               </Link>
@@ -133,6 +128,11 @@ const Navbar = (props) => {
             <li>
               <Link href="/harga">
                 <a className={router.pathname == "/harga" ? "nav-link scrollto active" : "nav-link scrollto"}>Harga</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/about">
+                <a className={router.pathname == "/about" ? "nav-link scrollto active" : "nav-link scrollto"}>Tentang Kami</a>
               </Link>
             </li>
           </ul>
