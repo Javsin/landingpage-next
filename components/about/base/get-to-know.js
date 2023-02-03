@@ -4,9 +4,9 @@ import Kepin from "../../../public/img/about/kepin.png";
 const GetToKnow = () => {
   return (
     <>
-      <div className="row py-4">
+      <div className="row py-3 py-lg-4">
         <div className="col-12 col-lg-2">
-          <div className="d-flex flex-row flex-lg-column gap-2 gap-lg-0 fw-bolder" style={{ fontSize: "2.9rem" }}>
+          <div className="d-flex flex-row flex-lg-column gap-2 gap-lg-0 fw-bolder fs-get-know">
             <span className="text-dark-blue">GET TO</span>
             <span className="text-orange">KNOW</span>
             <span className="text-dark-blue">US.</span>
@@ -26,15 +26,7 @@ const GetToKnow = () => {
       </div>
       <div className="row py-3">
         <div className="col-12">
-          <Image
-            src={Kepin}
-            alt="kepin"
-            loading="lazy"
-            className="img-fluid"
-            style={{
-              borderRadius: "50px",
-            }}
-          />
+          <Image src={Kepin} alt="kepin" loading="lazy" className="img-fluid rounded-50-x" />
         </div>
       </div>
     </>
