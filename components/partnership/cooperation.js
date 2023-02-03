@@ -16,9 +16,9 @@ const Cooperation = () => {
                                     </p>
                                 </div>
                                 <div className="bg-blue-6 border-radius-1-bottom p-2 text-center">
-                                    <p className="my-4 text-white fw-300 fs-6_5"> Penjualan produk dilakukan melalui <br/>aplikasi MuraPay.</p>
+                                    <p className="my-4 text-white fw-300 fs-6_5"> Produk hanya dapat diakses oleh member <br/>yang berada di area Dealer.</p>
                                     <hr className="mx-4" style={{border: '1px solid #4B598E',opacity:10}}/>
-                                    <p className="my-4 text-white fw-300 fs-6_5"> Transaksi produk inner oleh pengguna di bawah jaringan Tim Sales Dealer melalui aplikasi MuraPay.</p>
+                                    <p className="my-4 text-white fw-300 fs-6_5"> Untuk setiap transaksi produk Dealer,sistem <br/>akan otomatis mengarahkan ke stok Dealer</p>
                                 </div>
                             </div>
                         </div> 
