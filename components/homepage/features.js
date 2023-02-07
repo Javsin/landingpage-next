@@ -16,7 +16,7 @@ const Features = () => {
             <div className="icon-box" data-aos="zoom-in" data-aos-delay={50}>
               <Image src={icon1} className="img-fluid" width={48} height={48} alt="icon1" />
               <h3>
-                <a href>Mutasi Transaksi</a>
+                <span>Mutasi Transaksi</span>
               </h3>
             </div>
           </div>
@@ -24,7 +24,7 @@ const Features = () => {
             <div className="icon-box" data-aos="zoom-in" data-aos-delay={100}>
               <Image src={icon2} className="img-fluid" width={48} height={48} alt="icon2" />
               <h3>
-                <a href>Transaksi Multi</a>
+                <span>Transaksi Multi</span>
               </h3>
             </div>
           </div>
@@ -32,7 +32,7 @@ const Features = () => {
             <div className="icon-box" data-aos="zoom-in" data-aos-delay={150}>
               <Image src={icon3} className="img-fluid" width={48} height={48} alt="icon3" />
               <h3>
-                <a href>Mitra Mura</a>
+                <span>Mitra Mura</span>
               </h3>
             </div>
           </div>
@@ -40,7 +40,7 @@ const Features = () => {
             <div className="icon-box" data-aos="zoom-in" data-aos-delay={200}>
               <Image src={icon4} className="img-fluid" width={48} height={48} alt="icon4" />
               <h3>
-                <a href>Live Support</a>
+                <span>Live Support</span>
               </h3>
             </div>
           </div>

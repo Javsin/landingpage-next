@@ -528,7 +528,7 @@ const FunctionXP = () => {
                         </div>
                         <div className="col-11 align-self-center">
                           <p className="my-0 d-flex fs-5">
-                            Misi dan Event <span className="text-white mx-2">+100-500</span> <Image src={xp} width={18} height={18} />{" "}
+                            Misi dan Event <span className="text-white mx-2">+100-500</span> <Image src={xp} width={18} height={18} alt="image-xp" />{" "}
                           </p>
                         </div>
                       </div>

@@ -24,7 +24,7 @@ const GetToKnow = () => {
           </p>
         </div>
       </div>
-      <div className="row py-3">
+      <div className="row py-3 py-lg-4">
         <div className="col-12">
           <Image src={Kepin} alt="kepin" loading="lazy" className="img-fluid rounded-50-x" />
         </div>
