@@ -7,7 +7,7 @@ const TheTeam = () => {
   return (
     <div className="row py-3 py-lg-4">
       <div className="col-lg-6 col-12 mb-3 mb-lg-0">
-        <div className="d-flex flex-column align-items-start justify-content-center gap-2 ms-lg-5 ms-0 h-100">
+        <div className="d-flex flex-column align-items-start justify-content-center gap-2 h-100">
           <Image src={GroupImage} alt="group" loading="lazy" className="img-fluid" />
         </div>
       </div>
