@@ -6,12 +6,12 @@ import Kami from "../../../public/img/about/kami.png";
 const TheTeam = () => {
   return (
     <div className="row py-3 py-lg-4">
-      <div className="col-lg-6 col-12 mb-3 mb-lg-0">
+      <div className="col-lg-6 col-12 mb-3 mb-lg-0" data-aos="fade-right">
         <div className="d-flex flex-column align-items-start justify-content-center gap-2 h-100">
           <Image src={GroupImage} alt="group" loading="lazy" className="img-fluid" />
         </div>
       </div>
-      <div className="col-lg-6 col-12 fs-6_5">
+      <div className="col-lg-6 col-12 fs-6_5" data-aos="fade-left">
         <div className="d-flex align-items-center justify-content-center h-100">
           <div className="row">
             <div className="col-12 fw-700 fs-1">
