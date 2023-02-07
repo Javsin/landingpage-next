@@ -6,7 +6,7 @@ const GetToKnow = () => {
     <>
       <div className="row py-3 py-lg-4">
         <div className="col-12 col-lg-2">
-          <div className="d-flex flex-row flex-lg-column gap-2 gap-lg-0 fw-bolder fs-get-know">
+          <div className="d-flex flex-column gap-2 gap-lg-0 fw-bolder fs-get-know">
             <span className="text-dark-blue">GET TO</span>
             <span className="text-orange">KNOW</span>
             <span className="text-dark-blue">US.</span>
