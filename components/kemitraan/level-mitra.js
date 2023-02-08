@@ -1,5 +1,5 @@
 import Image from "next/image";
-import image1 from "../../public/img/new/thumbnail.jpg";
+import image1 from "../../public/img/new/levelmura.jpg";
 import image2 from "../../public/img/new/mildstone.png";
 import styles from "../../styles/addons.module.css";
 const LevelMitra = (props) => {

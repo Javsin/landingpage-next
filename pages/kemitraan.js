@@ -37,9 +37,9 @@ export default function Kemitraan() {
             <Banner/>
             <DaftarIsi/>
             <WhatIsMura openBootstrapModal={event => openBootstrapModal(event, 'https://www.youtube.com/embed/fo_yu6JTh7U')}/>
-            <LevelKemitraan openBootstrapModal={event => openBootstrapModal(event, 'https://www.youtube.com/embed/fo_yu6JTh7U')}/>
+            <LevelKemitraan openBootstrapModal={event => openBootstrapModal(event, 'https://www.youtube.com/embed/BEqskD2Aq9A')}/>
             <Benefit/>
-            <XpPeriode openBootstrapModal={event => openBootstrapModal(event, 'https://www.youtube.com/embed/fo_yu6JTh7U')}/>
+            <XpPeriode openBootstrapModal={event => openBootstrapModal(event, 'https://www.youtube.com/embed/iEwYgBlN2_E')}/>
             <WhatIsLevel/>
             <FunctionXP/>
             <GetXP/>

@@ -25,8 +25,8 @@ export default function Kemitraan() {
     },[]);
     return (
         <Layout title="Murakoin | Jualan Murah, Untung, Pelayanan Ramah, dan Transaksi Aman" description="Jualan Pulsa Murah Dengan Murapay" keyword="murapay,murakoin" background="bg-blue-2">
-            <WhatIsMuraKoin openBootstrapModal={event => openBootstrapModal(event, 'https://www.youtube.com/embed/fo_yu6JTh7U')}/>
-            <PeerReward openBootstrapModal={event => openBootstrapModal(event, 'https://www.youtube.com/embed/fo_yu6JTh7U')}/>
+            <WhatIsMuraKoin openBootstrapModal={event => openBootstrapModal(event, 'https://www.youtube.com/embed/ORoq9VaGbl8')}/>
+            <PeerReward openBootstrapModal={event => openBootstrapModal(event, 'https://www.youtube.com/embed/Jl2eCGSLbTo')}/>
             <Modal url={url}/>
         </Layout>
     );

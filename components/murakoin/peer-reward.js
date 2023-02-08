@@ -1,5 +1,5 @@
 import Image from "next/image";
-import image1 from "../../public/img/new/thumbnail.jpg";
+import image1 from "../../public/img/new/peerreward.jpg";
 import styles from "../../styles/addons.module.css";
 const PeerReward = (props) => {
   return (

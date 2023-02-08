@@ -122,7 +122,7 @@ const Navbar = (props) => {
             </li>
             <li>
               <Link href="/partnership">
-                <a className={router.pathname == "/partnership" ? "nav-link scrollto active" : "nav-link scrollto"}>Partnership</a>
+                <a className={router.pathname == "/partnership" ? "nav-link scrollto active" : "nav-link scrollto"}>Partnership Dealer</a>
               </Link>
             </li>
             <li>

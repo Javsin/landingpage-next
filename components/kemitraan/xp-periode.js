@@ -1,5 +1,5 @@
 import Image from "next/image";
-import image1 from "../../public/img/new/thumbnail.jpg";
+import image1 from "../../public/img/new/perolehanxp.jpg";
 import Ikuartal from "../../public/img/new/Kuartal-01.png";
 import Ikuartal2 from "../../public/img/new/Kuartal-02.png";
 import Ikuartal3 from "../../public/img/new/Kuartal-03.png";
