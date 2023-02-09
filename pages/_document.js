@@ -16,13 +16,13 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
-        <script src="vendor/purecounter/purecounter_vanilla.js"></script>
-        <script src="vendor/aos/aos.js"></script>
+        <script defer src="vendor/purecounter/purecounter_vanilla.js"></script>
+        <script defer src="vendor/aos/aos.js"></script>
         {/* <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> */}
         {/* <script src="vendor/glightbox/js/glightbox.min.js"></script> */}
         {/* <script src="vendor/swiper/swiper-bundle.min.js"></script> */}
         {/* <script src="vendor/php-email-form/validate.js"></script> */}
-        <script src="js/main.js"></script>
+        <script defer src="js/main.js"></script>
       </body>
     </Html>
   );
