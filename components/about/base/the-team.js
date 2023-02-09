@@ -18,7 +18,7 @@ const TheTeam = () => {
               <span className="text-dark-blue">THE </span>
               <span className="text-orange">TEAM.</span>
             </div>
-            <div className="col-12" style={{ textAlign: "justify" }}>
+            <div className="col-12 mb-3" style={{ textAlign: "justify" }}>
               <p>
                 Kami membangun budaya perusahaan sebagai identitas dan komitmen untuk seluruh team kami. Suasana kerja yang nyaman dan fleksibel menciptakan kebebasan untuk team dalam berkreasi sehingga menumbuhkan rasa tanggung jawab yang
                 tinggi serta hasil yang optimal.
@@ -29,30 +29,42 @@ const TheTeam = () => {
                 lingkungan kami.
               </p>
             </div>
-            <div className="col-12 mb-2">
+            <div className="col-12 mb-4">
               <Image src={Kami} alt="kami" loading="lazy" className="img-fluid rounded-4" />
             </div>
             <div className="col-12">
               <div className="row fw-500 text-dark-blue">
                 <div className="col-4">
                   <div className="d-flex flex-column justify-content-center align-items-center">
-                    <span className="d-block">Established</span>
-                    <span className="d-block fs-1 fw-700">2021</span>
-                    <span className="d-block text-center">MuraPay resmi berdiri pada 17 Agustus 2021.</span>
+                    <span className="d-block lh-1">Established</span>
+                    <span className="d-block fs-1 fw-700 lh-1">2021</span>
+                    <span className="d-block text-center">
+                      MuraPay resmi
+                      <br />
+                      berdiri pada 17 <br /> Agustus 2021.
+                    </span>
                   </div>
                 </div>
                 <div className="col-4">
                   <div className="d-flex flex-column justify-content-center align-items-center">
-                    <span className="d-block">Staff</span>
-                    <span className="d-block fs-1 fw-700">90+</span>
-                    <span className="d-block text-center">Hingga kini, 99 orang terdaftar sebagai karyawan resmi.</span>
+                    <span className="d-block lh-1">Staff</span>
+                    <span className="d-block fs-1 fw-700 lh-1">90+</span>
+                    <span className="d-block text-center">
+                      Hingga kini, 99 orang
+                      <br /> terdaftar sebagai
+                      <br /> karyawan resmi.
+                    </span>
                   </div>
                 </div>
                 <div className="col-4">
                   <div className="d-flex flex-column justify-content-center align-items-center">
-                    <span className="d-block">Outlet</span>
-                    <span className="d-block fs-1 fw-700">3</span>
-                    <span className="d-block text-center">Terdapat 3 outlet resmi yang berada di Kota Semarang.</span>
+                    <span className="d-block lh-1">Outlet</span>
+                    <span className="d-block fs-1 fw-700 lh-1">3</span>
+                    <span className="d-block text-center">
+                      Terdapat 3 outlet
+                      <br /> resmi yang berada
+                      <br /> di Kota Semarang.
+                    </span>
                   </div>
                 </div>
               </div>
