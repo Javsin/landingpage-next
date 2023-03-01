@@ -14,7 +14,7 @@ const GetToKnow = () => {
         </div>
         <div className="col-12 col-lg-9 pe-0 pe-lg-4" style={{ textAlign: "justify" }}>
           <p>
-            <strong>MuraPay</strong> (PT Pejuang Mandiri Kreatif) yang juga merupakan bagian dari <strong>Unitedtronik Group</strong> adalah perusahaan penyedia layanan penjualan dan pembelian produkproduk digital berbasis aplikasi yang
+            <strong>MuraPay</strong> (PT Pejuang Mandiri Kreatif) yang juga merupakan bagian dari <strong>Unitedtronik Group</strong> adalah perusahaan penyedia layanan penjualan dan pembelian produk - produk digital berbasis aplikasi yang
             berkantor pusat di Semarang, Jawa Tengah. Kami menyediakan beragam produk digital, mulai dari pulsa, paket data, PPOB, pembayaran tagihan, hingga transfer uang dengan fitur lengkap serta customer service yang siap melayani
             24jam.
           </p>

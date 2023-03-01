@@ -25,7 +25,7 @@ const TheTeam = () => {
               </p>
               <p>
                 Bersama-sama kami menuangkan keahlian kami dalam membangun <strong>MuraPay</strong> untuk mewujudkan visi perusahaan kami bukan hanya untuk saat ini tetapi juga untuk generasi yang akan datang. Kami percaya bahwa sesuatu
-                yang dikerjakan dengan sungguh-sungguh dan penuh keyakinan dalam penyelesainnya akan menciptakan hasil yang dapat membawa dampak positif tidak hanya untuk kami tetapi juga untuk orang-orang yang kami layani dan berada di
+                yang dikerjakan dengan sungguh-sungguh dan penuh keyakinan dalam penyelesaiannya akan menciptakan hasil yang dapat membawa dampak positif tidak hanya untuk kami tetapi juga untuk orang-orang yang kami layani dan berada di
                 lingkungan kami.
               </p>
             </div>
