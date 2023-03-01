@@ -21,7 +21,6 @@ const Price = () => {
     if(val !== "All"){
       const value = val
       const fak = [...temp];
-      console.log(fak)
       fak = fak.filter((item) => item.kategori === value);
       setOperator([...fak[0].data]);
     }else{
