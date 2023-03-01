@@ -347,7 +347,7 @@ html {
   content: "";
   background-image: url("../public/img/icon/Vector\ \(1\).png") !important;
   background-repeat: no-repeat;
-  background-size: 1rem;
+  background-size: 1rem !important;
   transition: transform 0.2s ease-in-out;
 }
 .accordion-button:not(.collapsed)::after {

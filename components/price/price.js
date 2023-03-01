@@ -7,13 +7,55 @@ import "react-loading-skeleton/dist/skeleton.css";
 const Price = () => {
   const [data, setData] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
-
+  const [operator, setOperator] = useState([]);
+  const [temp,setTemp] = useState([]);
+  const [thiskategori,setThisKategori] = useState("");
+  const [thisoperator, setThisOperator] = useState("");
   const el = useRef(null);
   const scroll = (index) => {
     if (index > 0) {
       el.current.scrollIntoView({ behavior: "smooth", block: "start" });
     }
   };
+  const changeKategori = (val) => {
+    if(val !== "All"){
+      const value = val
+      const fak = [...temp];
+      console.log(fak)
+      fak = fak.filter((item) => item.kategori === value);
+      setOperator([...fak[0].data]);
+    }else{
+      setOperator([]);
+    }
+    setThisKategori(val);
+    setThisOperator("All");
+  }
+  const search = () => {
+    if(thiskategori !== "All"){
+      const array = [
+        {
+          kategori: "",
+          data: []
+        }
+      ]
+      const filter = [...temp];
+      filter = filter.filter((item) => item.kategori === thiskategori);
+      array[0].kategori = filter[0].kategori;
+      if(thisoperator !== "All"){
+        const fixed_filter = filter.map ((item) => {
+          const filter2 = item.data.filter((item2) => item2.operator === thisoperator);
+          const tempfilter = [...filter]
+          array[0].data.push(filter2[0]);
+          setData([...array]);
+        })
+      }else{
+        array[0].data = filter[0].data;
+        setData([...array]);
+      }
+    }else{
+      setData([...temp])
+    }
+  }
   useEffect(() => {
     async function fetchData() {
       let config = {
@@ -26,6 +68,7 @@ const Price = () => {
       setIsLoading(true);
       let res = await axios(config)
         .then(function (response) {
+          setTemp([...response.data]);
           setData([...response.data]);
         })
         .catch(function (error) {
@@ -137,6 +180,35 @@ const Price = () => {
           {!isLoading && (
             <>
               <div className="accordion accordion-flush custom-accordion" id="accordionFlushExample">
+                <div className="row">
+                  <div className="col-12">
+                    <select className="form-select mb-3" aria-label="Kategori" onChange={e => changeKategori(e.target.value)}>
+                    <option value="All">ALL</option>
+                      {temp?.map((item, index) => {
+                        return (
+                          <option key={index} value={item.kategori}>
+                            {item.kategori}
+                          </option>
+                        );
+                      })}
+                    </select>
+                  </div>
+                  <div className="col-12">
+                    <select className="form-select mb-3" aria-label="Operator" onChange={e=>setThisOperator(e.target.value)}>
+                        <option value="All">ALL</option>
+                        {operator?.map((item, index) => {
+                          return (
+                            <option key={index} value={item.operator} select >
+                              {item.operator}
+                            </option>
+                          );
+                        })}
+                    </select>
+                  </div>
+                  <div>
+                    <button className="btn bg-orange mb-3 w-100 text-white" onClick={search}>Filter</button>
+                  </div>
+                </div>
                 {data?.map((item, index) => {
                   return (
                     <div className="accordion-item mb-2" key={index}>
