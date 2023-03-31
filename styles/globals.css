@@ -134,6 +134,10 @@ html {
   border-bottom: 1px solid #acacac;
 }
 
+.section-2{
+  padding: 8.3rem;
+}
+
 #line {
   height: 2px;
   background-color: #2a3253;
@@ -947,11 +951,10 @@ h6 {
 
 #hero_ku_partner {
   width: 100%;
-  background-image: url("../public/img/new/bg-partner.png");
+  background: url("../public/img/new/bg-head-partner.png") no-repeat;
   background-size: cover;
   background-color: #21284d;
   position: relative;
-  background-blend-mode: overlay;
 }
 
 #form_partner {
