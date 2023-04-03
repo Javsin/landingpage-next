@@ -1,6 +1,11 @@
 const Banner = () => {
+    const form_partner = () => {
+        //scroll to specific element
+        const element = document.getElementById('form_partner');
+        element.scrollIntoView({behavior: 'smooth', block: 'start', inline: 'nearest'});
+    }
     return (
-        <section id="hero_ku_partner" className="pb-0">
+        <section id="hero_ku_partner" className="section-2">
             <div className="container my-5">
                 <div className="row d-flex d-none d-md-block">
                     <div className='col-12'>
@@ -18,7 +23,7 @@ const Banner = () => {
                                 </span>
                             </div>
                             <div className='mt-3'>
-                                <button className='btn bg-orange rounded-pill text-white fs-5'>Daftar Sekarang</button>
+                                <button className='btn bg-orange rounded-pill text-white fs-5' onClick={()=>form_partner()}>Daftar Sekarang</button>
                             </div>
                         </div>
                     </div>
@@ -36,7 +41,7 @@ const Banner = () => {
                             </span>
                         </div>
                         <div className='mt-3'>
-                                <button className='btn bg-orange rounded-pill text-white'>Daftar Sekarang</button>
+                                <button className='btn bg-orange rounded-pill text-white' onClick={()=>form_partner()}>Daftar Sekarang</button>
                         </div>
                     </div>
                 </div>

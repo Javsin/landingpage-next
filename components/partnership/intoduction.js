@@ -28,8 +28,8 @@ const Introduction = () => {
                             <Image src={Image2} className="" alt="img-goal-1" loading="lazy" height={240} width={240} />
                         </div>
                         <div className="col-12 mt-4 text-center">
-                            <p className="mb-3 fw-700 fs-1 text-dark-blue lh-sm"> Tahukah Anda bahwa <br/> Saat ini</p>
-                            <p className="my-0 text-orange fw-600">Konter & Pemain Retail memiliki <br/>
+                            <p className="mb-3 fw-700 fs-3 text-dark-blue lh-sm"> Tahukah Anda bahwa <br/> Saat ini</p>
+                            <p className="my-0 text-orange fw-600 fs-normal">Konter & Pemain Retail memiliki <br/>
                                 kekhawatiran ketika berbelanja Pulsa, <br/>
                                 Voucher & Kartu Perdana dengan  <br/>
                                 Dealer Operator langsung. <br/>
