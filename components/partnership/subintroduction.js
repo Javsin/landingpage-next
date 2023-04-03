@@ -24,12 +24,12 @@ const Subintroduction = () => {
                                     ke Dealer Operator sebagai solusi untuk memitigasi resiko perpajakan <br/>
                                     bagi usaha mereka.
                                 </p>
-                                <a target="_blank" href="https://jdih.kemenkeu.go.id/download/9ac38d51-3b80-4dfd-a5e3-75a444bc49cc/6~PMK.03~2021Per.pdf" className="text-orange text-decoration-none d-none d-md-block">
+                                <a target="_blank" rel="noopener noreferrer" href="https://jdih.kemenkeu.go.id/download/9ac38d51-3b80-4dfd-a5e3-75a444bc49cc/6~PMK.03~2021Per.pdf" className="text-orange text-decoration-none d-none d-md-block">
                                     <small>
                                         Referensi: https://jdih.kemenkeu.go.id/download/9ac38d51-3b80-4dfd-a5e3-75a444bc49cc/6~PMK.03~2021Per.pdf
                                     </small>
                                 </a>
-                                <a target="_blank" href="https://jdih.kemenkeu.go.id/download/9ac38d51-3b80-4dfd-a5e3-75a444bc49cc/6~PMK.03~2021Per.pdf" className="text-orange text-decoration-none d-md-none d-block fs-7">
+                                <a target="_blank" rel="noopener noreferrer" href="https://jdih.kemenkeu.go.id/download/9ac38d51-3b80-4dfd-a5e3-75a444bc49cc/6~PMK.03~2021Per.pdf" className="text-orange text-decoration-none d-md-none d-block fs-7">
                                     Referensi: https://jdih.kemenkeu.go.id/download/9ac38d51-3b80-4dfd-a5e3-75a444bc49cc/6~PMK.03~2021Per.pdf
                                 </a>
                             </div>

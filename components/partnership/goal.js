@@ -5,6 +5,11 @@ import icon_3 from "../../public/img/new/goal3_parntership.png";
 import icon_4 from "../../public/img/new/goal4_parntership.png";
 import icon_5 from "../../public/img/new/goal5_parntership.png";
 const Goal = () => {
+  const form_partner = () => {
+      //scroll to specific element
+      const element = document.getElementById('form_partner');
+      element.scrollIntoView({behavior: 'smooth', block: 'start', inline: 'nearest'});
+  }
   return (
     <div>
       <section className="bg-white goal">
@@ -177,7 +182,7 @@ const Goal = () => {
               </div>
             </div>
             <div className="text-center mt-md-4 mt-1">
-              <button className="rounded-5 bg-orange btn text-white p-2">
+              <button className="rounded-5 bg-orange btn text-white px-md-5 py-md-3 p-2" onClick={()=>form_partner()}>
                 Daftar Sekarang
               </button>
             </div>
