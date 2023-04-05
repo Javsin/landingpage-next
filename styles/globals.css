@@ -542,11 +542,9 @@ h6 {
   }
   #hero_ku_partner {
     width: 100%;
-    background-image: url("../public/img/new/bg-partner-mobile.png") !important;
+    background-image: url("../public/img/new/bg-head-partner-mobile.jpg") !important;
     background-size: cover;
-    background-color: #21284d;
     position: relative;
-    background-blend-mode: overlay;
   }
   .card-sangkar-burung {
     box-sizing: border-box;
