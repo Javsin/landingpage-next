@@ -25,7 +25,7 @@ const Introduction = () => {
                 <div className="container">
                 <div className="row d-flex">
                         <div className="col-12 text-center">
-                            <Image src={Image2} className="" alt="img-goal-1" loading="lazy" height={240} width={240} />
+                            <Image src={Image2} className="" alt="img-goal-1" loading="lazy" height={240} width={240}  />
                         </div>
                         <div className="col-12 mt-4 text-center">
                             <p className="mb-3 fw-700 fs-3 text-dark-blue lh-sm"> Tahukah Anda bahwa <br/> Saat ini</p>

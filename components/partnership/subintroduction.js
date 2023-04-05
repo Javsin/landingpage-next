@@ -35,7 +35,7 @@ const Subintroduction = () => {
                             </div>
                         </div>
                         <div className="col-md-5 col-12">
-                            <Image src={Image1} className="img-fluid" alt=""/>
+                            <Image src={Image1} className="img-fluid" alt="" loading='lazy'/>
                         </div>
                         <div className="col-md-7 d-flex">
                             <p className="text-dark-blue fs-medium fw-500 align-self-center d-md-block d-none mb-0">

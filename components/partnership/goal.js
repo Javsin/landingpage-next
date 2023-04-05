@@ -20,7 +20,7 @@ const Goal = () => {
                   <h3 className="fw-700 text-orange fs-3 mb-5">Solusi yang Kami Hadirkan :</h3>
                 </div>
                 <div className="col-12 col-lg-4" data-aos="fade-right">
-                  <Image src={icon_1} alt="icon_1" className="img-fluid rounded" />
+                  <Image src={icon_1} alt="icon_1" className="img-fluid rounded" loading='lazy' />
                 </div>
                 <div className="col-12 col-md-8 d-flex">
                   <div className="py-5 align-self-center justify-self-end" data-aos="fade-left">
@@ -49,10 +49,10 @@ const Goal = () => {
                   </div>
                 </div>
                 <div className="col-12 col-lg-4" data-aos="fade-left" data-aos-delay="300">
-                  <Image src={icon_2} alt="icon_2" className="img-fluid rounded" />
+                  <Image src={icon_2} alt="icon_2" className="img-fluid rounded" loading='lazy' />
                 </div>
                 <div className="col-12 col-lg-4" data-aos="fade-right" data-aos-delay="600">
-                  <Image src={icon_3} alt="icon_3" className="img-fluid rounded" />
+                  <Image src={icon_3} alt="icon_3" className="img-fluid rounded" loading='lazy' />
                 </div>
                 <div className="col-12 col-md-8 d-flex">
                   <div className="py-5 align-self-center justify-self-end" data-aos="fade-left" data-aos-delay="600">
@@ -80,10 +80,10 @@ const Goal = () => {
                   </div>
                 </div>
                 <div className="col-12 col-lg-4" data-aos="fade-left" data-aos-delay="1200">
-                  <Image src={icon_4} alt="icon_4" className="img-fluid rounded" />
+                  <Image src={icon_4} alt="icon_4" className="img-fluid rounded" loading='lazy' />
                 </div>
                 <div className="col-12 col-lg-4" data-aos="fade-right" data-aos-delay="1200">
-                  <Image src={icon_5} alt="icon_1" className="img-fluid rounded" />
+                  <Image src={icon_5} alt="icon_1" className="img-fluid rounded" loading='lazy' />
                 </div>
                 <div className="col-12 col-md-8 d-flex">
                   <div className="py-5 align-self-center justify-self-end" data-aos="fade-left" data-aos-delay="1200">
@@ -104,7 +104,7 @@ const Goal = () => {
                   <h3 className="fw-700 text-orange fs-medium mb-3">Solusi yang Kami Hadirkan :</h3>
                 </div>
                 <div className="col-12 col-lg-4">
-                  <Image src={icon_1} alt="icon_1" className="img-fluid rounded" />
+                  <Image src={icon_1} alt="icon_1" className="img-fluid rounded" loading='lazy' />
                 </div>
                 <div className="col-12 col-md-8 d-flex">
                   <div className="py-2 align-self-center justify-self-end">
@@ -136,7 +136,7 @@ const Goal = () => {
                   </div>
                 </div>
                 <div className="col-12 col-lg-4">
-                  <Image src={icon_3} alt="icon_3" className="img-fluid rounded" />
+                  <Image src={icon_3} alt="icon_3" className="img-fluid rounded" loading='lazy' />
                 </div>
                 <div className="col-12 col-md-8 d-flex">
                   <div className="py-2 align-self-center justify-self-end">
@@ -154,7 +154,7 @@ const Goal = () => {
                   </div>
                 </div>
                 <div className="col-12 col-lg-4">
-                  <Image src={icon_4} alt="icon_4" className="img-fluid rounded" />
+                  <Image src={icon_4} alt="icon_4" className="img-fluid rounded" loading='lazy' />
                 </div>
                 <div className="col-12 col-md-8">
                   <div className="py-2">
@@ -167,7 +167,7 @@ const Goal = () => {
                   </div>
                 </div>
                 <div className="col-12 col-lg-4">
-                  <Image src={icon_5} alt="icon_1" className="img-fluid rounded" />
+                  <Image src={icon_5} alt="icon_1" className="img-fluid rounded" loading='lazy' />
                 </div>
                 <div className="col-12 col-md-8 d-flex">
                   <div className="py-2 align-self-center justify-self-end">
