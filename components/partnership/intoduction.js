@@ -8,9 +8,9 @@ const Introduction = () => {
                 <div className="container">
                     <div className="row d-flex">
                         <div className="col-12 text-start align-self-center" data-aos="fade-right">
-                                <p className="mb-3 fw-700 d-none d-md-block fs-1 text-dark-blue lh-sm"> Tahukah Anda <br/>bahwa Saat ini</p>
-                                <p className="my-0 text-orange fw-600 fs-medium">Konter & Pemain Retail memiliki <br/>
-                                    kekhawatiran ketika berbelanja Pulsa, <br/>
+                                <p className="mb-3 fw-700 d-none d-md-block fs-1 text-dark-blue lh-sm"> Tahukah Anda bahwa Saat ini</p>
+                                <p className="my-0 text-orange fw-600 fs-medium">Konter & Pemain Retail memiliki kekhawatiran <br/>
+                                    ketika berbelanja Pulsa, 
                                     Voucher & Kartu Perdana dengan  <br/>
                                     Dealer Operator langsung. <br/>
                                 </p>
