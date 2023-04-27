@@ -38,12 +38,12 @@ const Subintroduction = () => {
                             <Image src={Image1} className="img-fluid" alt="" loading='lazy'/>
                         </div>
                         <div className="col-md-7 d-flex">
-                            <p className="text-dark-blue fs-medium fw-500 align-self-center d-md-block d-none mb-0">
-                                Hadirnya pasar jalur modern channel ini <b>berpengaruh</b> <br/> 
-                                <b>pada market share dan omset inner area Dealer</b> <br/>
-                                <b>Operator</b> karena konter & pemain retail berpindah <br/>
-                                transaksi. Hal ini juga dapat <b>mempengaruhi</b> <br/>
-                                <b>pencapaian kinerja Sales Inner dari </b><br/>
+                            <p className="text-dark-blue fs-medium fw-500 align-self-center d-md-block d-none mb-0 text-justify me-4">
+                                Hadirnya pasar jalur modern channel ini <b>berpengaruh</b> 
+                                <b>pada market share dan omset inner area Dealer</b> 
+                                <b>Operator</b> karena konter & pemain retail berpindah 
+                                transaksi. Hal ini juga dapat <b>mempengaruhi</b> 
+                                <b>pencapaian kinerja Sales Inner dari </b>
                                 <b>Dealer Operator tersebut.</b>
                             </p>
                             <p className="text-dark-blue fw-500 align-self-center d-block d-md-none text-center mt-2 mb-0 fs-normal">

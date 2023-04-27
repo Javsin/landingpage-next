@@ -38,7 +38,7 @@ const Sinergi = () => {
                 <div className="row">
                     <div className="col-12">
                         <div className="py-4">
-                            <button className="btn bg-orange rounded-pill px-md-5 py-md-3 p-2 fw-600 text-white" onClick={()=>form_partner()}>Daftar Sekarang</button>
+                            <button className="btn bg-orange rounded-pill px-md-5 py-md-3 p-2 fw-600 text-white fs-medium" onClick={()=>form_partner()}>Daftar Sekarang</button>
                         </div>
                     </div>
                 </div>

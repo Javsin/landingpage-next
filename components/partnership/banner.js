@@ -12,9 +12,9 @@ const Banner = () => {
                         <div>
                             <div className='row d-flex mb-3'>
                                 <div className='col-8 align-self-center lh-sm'>
-                                    <p><span className='fs-2 text-orange fw-700'>Program</span> <span className='fs-1 text-white fw-700'>Sinergi</span> <br/> 
-                                    <span className='fs-2 text-white fw-700'>Peningkatan Transaksi</span><span className='text-orange fw-700 fs-2'> Inner</span><br/> 
-                                    <span className='fs-2 text-orange fw-700'>Area</span> <span className='fs-1 text-orange fw-700'>Dealer</span> <span className='fs-1 fw-700 text-white'>Operator</span></p>
+                                    <p><span className='fs-1 text-orange fw-700'>Program</span> <span className='fs-get-know text-white fw-700'>Sinergi</span> <br/> 
+                                    <span className='fs-1 text-white fw-700'>Peningkatan Transaksi</span><span className='text-orange fw-700 fs-1'> Inner</span><br/> 
+                                    <span className='fs-1 text-orange fw-700'>Area</span> <span className='fs-get-know text-orange fw-700'>Dealer</span> <span className='fs-get-know fw-700 text-white'>Operator</span></p>
                                 </div>
                             </div>
                             <div>
