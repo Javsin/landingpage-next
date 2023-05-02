@@ -183,7 +183,8 @@ const Goal = () => {
             </div>
             <div className="text-center mt-md-4 mt-1">
               <button className="rounded-5 bg-orange btn text-white px-md-5 py-md-3 p-2" onClick={()=>form_partner()}>
-                Daftar Sekarang
+                <span className="fs-medium d-md-block d-none">Daftar Sekarang</span>
+                <span className="d-block d-md-none">Daftar Sekarang</span>
               </button>
             </div>
           </div>
