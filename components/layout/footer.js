@@ -70,11 +70,11 @@ const Footer = () => {
                 </li>
                 <li>
                   <i className="bx bx-chevron-right" />
-                    <a href="https://apps.murapay.id/app/webview/syarat-ketentuan-v1.html" target="_blank">Syarat & Ketentuan</a>
+                    <a href="https://apps.murapay.id/app/webview/syarat-ketentuan-v1.html" target="_blank" rel="noreferrer">Syarat & Ketentuan</a>
                 </li>
                 <li>
                   <i className="bx bx-chevron-right" />
-                    <a href=" https://apps.murapay.id/app/webview/kebijakan-privasi-v1.html" target="_blank">Kebijakan Privasi</a>
+                    <a href=" https://apps.murapay.id/app/webview/kebijakan-privasi-v1.html" target="_blank" rel="noreferrer">Kebijakan Privasi</a>
                 </li>
               </ul>
             </div>
