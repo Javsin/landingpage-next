@@ -68,6 +68,14 @@ const Footer = () => {
                     <a>Tentang Kami</a>
                   </Link>
                 </li>
+                <li>
+                  <i className="bx bx-chevron-right" />
+                    <a href="https://apps.murapay.id/app/webview/syarat-ketentuan-v1.html" target="_blank">Syarat & Ketentuan</a>
+                </li>
+                <li>
+                  <i className="bx bx-chevron-right" />
+                    <a href=" https://apps.murapay.id/app/webview/kebijakan-privasi-v1.html" target="_blank">Kebijakan Privasi</a>
+                </li>
               </ul>
             </div>
             <div className="col-lg-3 col-md-6 footer-newsletter">
