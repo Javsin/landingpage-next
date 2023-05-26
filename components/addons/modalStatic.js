@@ -21,13 +21,13 @@ const modalStatic = () => {
     const [modalIsOpen, setIsOpen] = useState(false);
 
     const openModal = () => {
-        if (getCookie("modal_closed") != "true")
+        if (getCookie("modal_closed_murapay") != "true")
         setIsOpen(true);
     }
 
     const closeModal = () => {
         setIsOpen(false);
-        createCookie("modal_closed", "true", 60)
+        createCookie("modal_closed_murapay", "true", 60)
     }
 
     const createCookie = (name, value, minutes) => {
@@ -79,7 +79,7 @@ const modalStatic = () => {
                     Seluruh nomor rekening bank atas nama <b>PT PEJUANG MANDIRI KREATIF</b> hanya digunakan untuk <b>deposit saldo member aplikasi MuraPay.</b>
                 </p>
                 <p className='fs-6_5'>
-                    Rekening resmi <b>PT PEJUANG MANDIRI KREATIF</b>tidak pernah digunakan untuk transaksi lainnya seperti jual-beli barang elektronik, pembayaran cicilan pinjol, hadiah undian, hadiah giveaway, dan sebagainya.
+                    Rekening resmi <b>PT PEJUANG MANDIRI KREATIF</b> tidak pernah digunakan untuk transaksi lainnya seperti jual-beli barang elektronik, pembayaran cicilan pinjol, hadiah undian, hadiah giveaway, dan sebagainya.
                 </p>
                 <p className='fs-6_5'>
                     Apabila Anda dihubungi oleh oknum yang meminta Anda untuk mentransfer sejumlah dana ke rekening <b>PT PEJUANG MANDIRI KREATIF</b> untuk transaksi selain deposit saldo member, berikut ini adalah langkah-langkah yang bisa Anda lakukan:
@@ -89,7 +89,7 @@ const modalStatic = () => {
                         <b>Jangan transfer dana yang diminta oknum</b> tersebut untuk mencegah terjadinya kerugian finansial.
                     </li>
                     <li className='fs-6_5'>
-                        Segera hubungi tim CS kami melalui Whatsapp di nomor 0813-2970-1020 (atau klik <a target='_blank' href='https://api.whatsapp.com/send/?phone=6281329701020&text=Hallo,saya%20ingin%20mengetahui%20lebih%20lanjut%20mengenai%20murapay%20&type=phone_number&app_absent=0'>di sini</a>). Silahkan sampaikan kronologis yang lengkap agar tim kami bisa segera memblokir akun oknum tersebut.
+                        Segera hubungi tim CS kami melalui Whatsapp di nomor 0813-2970-1020 (atau klik <a target='_blank' href='https://api.whatsapp.com/send/?phone=6281329701020&text=Hallo,ada%20oknum yang%20menghubungi%20dan meminta saya%20 untuk mentransfer%20 dana ke rekening %20murapay%20&type=phone_number&app_absent=0'>di sini</a>). Silahkan sampaikan kronologis yang lengkap agar tim kami bisa segera memblokir akun oknum tersebut.
                     </li>
                 </ol>
                 <button className='btn btn-sm btn-danger fw-bold' onClick={closeModal}>YA, SAYA MENGERTI</button>

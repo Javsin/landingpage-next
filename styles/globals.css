@@ -2494,7 +2494,7 @@ section {
 .ReactModal__Overlay {
   animation-name: fadeIn;
   animation-duration: 0.5s;
-  background-color: rgba(122, 122, 122, 0.75) !important;
+  background-color: rgba(133, 133, 133, 0.75) !important;
 }
 
 .ReactModal__Overlay--after-open {
