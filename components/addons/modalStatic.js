@@ -10,7 +10,7 @@ const customStyles = {
         transform: 'translate(-50%, -50%)',
         borderRadius: "10px",
         border : "none",
-        zIndex: "9999",
+        zIndex: "9999 !important",
         width: '90%', // Default width for mobile
         maxWidth: '650px', // Maximum width for desktop
         backgroundColor: "#fff",
