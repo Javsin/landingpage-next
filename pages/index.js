@@ -8,6 +8,7 @@ import Suitable from "../components/homepage/suitable";
 import Carousel from "../components/homepage/carousel";
 import FAQ from "../components/homepage/faq";
 import Modal from "../components/addons/modalvid";
+import ModalStatic from "../components/addons/modalStatic";
 export default function Home() {
   useEffect(() => {
     window.AOS.init({
@@ -29,6 +30,7 @@ export default function Home() {
           <Carousel />
           <FAQ />
           <Modal url="https://www.youtube.com/embed/fo_yu6JTh7U" />
+          <ModalStatic />
         </>
       </Layout>
     </div>
