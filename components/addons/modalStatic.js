@@ -65,7 +65,6 @@ const modalStatic = () => {
     }, [])
     return (
         <>
-            <button onClick={openModal}>Open Modal</button>
             <Modal
                 id = "yourAppElement"
                 isOpen={modalIsOpen}
