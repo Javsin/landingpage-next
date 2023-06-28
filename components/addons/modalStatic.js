@@ -86,15 +86,15 @@ const ModalStatic = () => {
           <div className="row mb-3">
             {/* Web */}
             <div className="col-3 d-none d-lg-flex justify-content-end align-items-center" style={{ backgroundColor: "#f0040c" }}>
-              <NextImage src={Warning} alt="Warning" width={75} height={75} className="d-flex justify-content-center align-items-center d-block" />
+              <NextImage src={Warning} alt="Warning" width={70} height={70} className="d-flex justify-content-center align-items-center d-block" />
             </div>
             <div className="col-6 d-none d-lg-block" style={{ backgroundColor: "#f0040c" }}>
-              <div className="text-center text-white fw-bold py-4" style={{ fontSize: "3.5em" }}>
+              <div className="text-center text-white fw-bold py-3" style={{ fontSize: "3.5em" }}>
                 WASPADA
               </div>
             </div>
             <div className="col-3 d-none d-lg-flex align-items-center" style={{ backgroundColor: "#f0040c" }}>
-              <NextImage src={Warning} alt="Warning" width={75} height={75} className=" d-block" />
+              <NextImage src={Warning} alt="Warning" width={70} height={70} className=" d-block" />
             </div>
             {/* Mobile */}
             <div className="col-3 d-lg-none d-flex justify-content-end align-items-center" style={{ backgroundColor: "#f0040c" }}>
@@ -124,7 +124,7 @@ const ModalStatic = () => {
           </div>
 
           <div className="px-2">
-            <div className={`row mb-2 gap-2 ${isMobile ? "fs-7" : "fs-6_5"}`}>
+            <div className={`row mb-2 gap-2 ${isMobile ? "fs-7" : "fs-6_6"}`}>
               {/* Web */}
               <div className="col-12">
                 <p className="mb-0">
@@ -145,7 +145,7 @@ const ModalStatic = () => {
               </div>
             </div>
 
-            <div className={`row mb-2 gap-2 ${isMobile ? "fs-7" : "fs-6_5"}`}>
+            <div className={`row mb-2 gap-2 ${isMobile ? "fs-7" : "fs-6_6"}`}>
               <div className="col-12 ps-4">
                 <div className="d-flex align-items-center gap-2">
                   <span>1.</span>
