@@ -159,7 +159,7 @@ const ModalStatic = () => {
                   <span>2.</span>
                   <span className="ps-1">
                     Segera hubungi tim CS kami melalui Whatsapp di nomor 0813-2970-1020 (atau klik{" "}
-                    <a className="link-opacity-100 link-opacity-50-hover" href="http://wa.me/6281329701020" target="_blank">
+                    <a className="link-opacity-100 link-opacity-50-hover" href="http://wa.me/6281329701020" target="_blank" rel="noreferrer">
                       <u>di sini</u>
                     </a>
                     ). Silahkan sampaikan kronologis yang lengkap agar tim kami bisa segera memblokir akun oknum tersebut.
