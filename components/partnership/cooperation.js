@@ -44,7 +44,7 @@ const Cooperation = () => {
                     </div>
                 </div>
             </section>
-      </div>
+        </div>
     )
 }
 export default Cooperation;

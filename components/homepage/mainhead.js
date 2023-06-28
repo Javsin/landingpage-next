@@ -1,6 +1,8 @@
 import Image from "next/image";
 import playstore from "../../public/img/btn-playstore.png";
 import phone from "../../public/img/new/head_banner.png";
+const imageLoader = require("../../loader");
+
 const Head = () => {
   return (
     <section id="hero">
@@ -21,7 +23,7 @@ const Head = () => {
                   </div>
                   <div className="col-4">
                     <a href="https://play.google.com/store/apps/details?id=com.app.murapay" target="_blank" rel="noopener noreferrer">
-                      <Image src={playstore} className="img-fluid" alt="download sekarang" />
+                      <Image loader={imageLoader} src={playstore} className="img-fluid" alt="download sekarang" />
                     </a>
                   </div>
                 </div>

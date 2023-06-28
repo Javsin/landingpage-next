@@ -23,7 +23,7 @@ const customStyles = {
     padding: "0px",
   },
 };
-const modalStatic = () => {
+const ModalStatic = () => {
   const [modalIsOpen, setIsOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
 
@@ -182,4 +182,4 @@ const modalStatic = () => {
   );
 };
 
-export default modalStatic;
+export default ModalStatic;

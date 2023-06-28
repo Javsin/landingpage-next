@@ -102,6 +102,10 @@ html {
   font-weight: 700;
 }
 
+.text-justify {
+  text-align: justify !important;
+}
+
 .fw-600 {
   font-weight: 600;
 }
@@ -132,6 +136,10 @@ html {
 }
 .border-light-gray-bottom {
   border-bottom: 1px solid #acacac;
+}
+
+.section-2 {
+  padding: 8.3rem;
 }
 
 #line {
@@ -347,7 +355,7 @@ html {
   content: "";
   background-image: url("../public/img/icon/Vector\ \(1\).png") !important;
   background-repeat: no-repeat;
-  background-size: 1rem;
+  background-size: 1rem !important;
   transition: transform 0.2s ease-in-out;
 }
 .accordion-button:not(.collapsed)::after {
@@ -538,11 +546,9 @@ h6 {
   }
   #hero_ku_partner {
     width: 100%;
-    background-image: url("../public/img/new/bg-partner-mobile.png") !important;
+    background-image: url("../public/img/new/bg-head-partner-mobile.jpg") !important;
     background-size: cover;
-    background-color: #21284d;
     position: relative;
-    background-blend-mode: overlay;
   }
   .card-sangkar-burung {
     box-sizing: border-box;
@@ -947,11 +953,10 @@ h6 {
 
 #hero_ku_partner {
   width: 100%;
-  background-image: url("../public/img/new/bg-partner.png");
+  background: url("../public/img/new/bg-head-partner.jpg") no-repeat;
   background-size: cover;
   background-color: #21284d;
   position: relative;
-  background-blend-mode: overlay;
 }
 
 #form_partner {
@@ -1282,6 +1287,9 @@ section {
 }
 
 @media (max-width: 768px) {
+  .section-2 {
+    padding: 60px 0;
+  }
   .breadcrumbs .d-flex {
     display: block !important;
   }

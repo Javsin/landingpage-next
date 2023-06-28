@@ -1,110 +1,193 @@
 import Image from "next/future/image";
-import icon_1 from "../../public/img/icon/partnership-1.png";
-import icon_2 from "../../public/img/icon/partnership-2.png";
-import icon_3 from "../../public/img/icon/partnership-3.png";
-import icon_1_mobile from "../../public/img/icon/partnership-1-mobile.png";
-import icon_2_mobile from "../../public/img/icon/partnership-2-mobile.png";
-import icon_3_mobile from "../../public/img/icon/partnership-3-mobile.png";
+import icon_1 from "../../public/img/new/goal1_parntership.png";
+import icon_2 from "../../public/img/new/goal2_parntership.png";
+import icon_3 from "../../public/img/new/goal3_parntership.png";
+import icon_4 from "../../public/img/new/goal4_parntership.png";
+import icon_5 from "../../public/img/new/goal5_parntership.png";
 const Goal = () => {
+  const form_partner = () => {
+      //scroll to specific element
+      const element = document.getElementById('form_partner');
+      element.scrollIntoView({behavior: 'smooth', block: 'start', inline: 'nearest'});
+  }
   return (
     <div>
-      <section className="bg-blue-4 goal">
+      <section className="bg-white goal">
         <div className="container">
-          <div className="row">
-            <div className="col-12 text-center">
-              <h3 className="fs-3 fw-700 text-orange">Tujuan Program</h3>
+            <div className="d-none d-md-block">
+              <div className="row">
+                <div className="col-12 text-center">
+                  <h3 className="fw-700 text-orange fs-3 mb-5">Solusi yang Kami Hadirkan :</h3>
+                </div>
+                <div className="col-12 col-lg-4" data-aos="fade-right">
+                  <Image src={icon_1} alt="icon_1" className="img-fluid rounded" loading='lazy' />
+                </div>
+                <div className="col-12 col-md-8 d-flex">
+                  <div className="py-5 align-self-center justify-self-end" data-aos="fade-left">
+                      <p className="fs-4 text-dark-blue fw-600">
+                        A. Mapping Lokasi Penjual
+                      </p>
+                      <ol className="px-4">
+                        <li className="text-dark-blue me-3">
+                          Sistem Kami memiliki Fitur Mapping Lokasi Penjual,Sehingga Produk dapat ditransaksikan 100% <br/> ke Stok yang sesuai dengan Area Milik Dealer.
+                        </li>
+                        <li className="me-3">
+                        Sistem Kami memiliki Fitur Produk Management, sehingga Produk dari Dealer hanya dapat ditransaksikan oleh Penjual yang Statusnya telah Tervalidasi oleh Team dari Dealer Operator
+                        </li>
+                      </ol>
+                  </div>
+                </div>
+                <div className="col-12 col-md-8 d-flex">
+                  <div className="py-5 align-self-center justify-self-end" data-aos="fade-right" data-aos-delay="300">
+                      <p className="fs-4 text-dark-blue fw-600">
+                        B.	Treatment Administrasi Perpajakan yang Tepat
+                      </p>
+                    <p>
+                        Kami memiliki Team Keuangan yang memahami betul dunia perpajakan di industri Telekomunikasi. <br/>
+                        Kami memahami bagaimana melakukan Treatment Perpajakan yang tepat & sejalan dengan peraturan yang ada, sehingga para Dealer Operator, Konter Pulsa, Pemain Retail tidak perlu lagi khawatir dengan administrasi perpajakan dan dapat fokus untuk berjualan serta mengembangkan usahanya.
+                    </p>
+                  </div>
+                </div>
+                <div className="col-12 col-lg-4" data-aos="fade-left" data-aos-delay="300">
+                  <Image src={icon_2} alt="icon_2" className="img-fluid rounded" loading='lazy' />
+                </div>
+                <div className="col-12 col-lg-4" data-aos="fade-right" data-aos-delay="600">
+                  <Image src={icon_3} alt="icon_3" className="img-fluid rounded" loading='lazy' />
+                </div>
+                <div className="col-12 col-md-8 d-flex">
+                  <div className="py-5 align-self-center justify-self-end" data-aos="fade-left" data-aos-delay="600">
+                      <p className="fs-4 text-dark-blue fw-600">
+                        C.  Konsorsium Program Operator
+                      </p>
+                      <ol className="px-4">
+                        <li className="text-dark-blue me-3">
+                          Dealer Operator dapat meningkatkan jumlah Partisipasi Pemain Konter yang mengikuti Program Operator
+                        </li>
+                        <li className="me-3">
+                        Pemain Konter mendapatkan Harga Pokok Penjualan yang lebih baik, dengan Permodalan yang lebih sesuai dengan kapasitasnya.
+                        </li>
+                      </ol>
+                  </div>
+                </div>
+                <div className="col-12 col-md-8 d-flex">
+                  <div className="py-5 align-self-center justify-self-end" data-aos="fade-right" data-aos-delay="900">
+                      <p className="fs-4 text-dark-blue fw-600 ">
+                        D. Sebagai Platform Informasi & Marketing
+                      </p>
+                    <p>
+                      Kami Memiliki Fitur yang memudahkan Dealer untuk memberikan Informasi, Promo atau Benefit Khusus yang ingin diberikan kepada Market dengan Cepat, Efektif & Bebas Biaya.
+                    </p>
+                  </div>
+                </div>
+                <div className="col-12 col-lg-4" data-aos="fade-left" data-aos-delay="1200">
+                  <Image src={icon_4} alt="icon_4" className="img-fluid rounded" loading='lazy' />
+                </div>
+                <div className="col-12 col-lg-4" data-aos="fade-right" data-aos-delay="1200">
+                  <Image src={icon_5} alt="icon_1" className="img-fluid rounded" loading='lazy' />
+                </div>
+                <div className="col-12 col-md-8 d-flex">
+                  <div className="py-5 align-self-center justify-self-end" data-aos="fade-left" data-aos-delay="1200">
+                      <p className="fs-4 text-dark-blue fw-600">
+                        E. Penetrasi Pasar yang Agresif & Fleksibel
+                      </p>
+                      <p>
+                      Sistem kami memiliki variasi produk terlengkap disertai fleksibilitas fitur aplikasi yang dapat membantu mempermudah Dealer Operator dalam melakukan penetrasi pasar yang lebih agresif lagi.
+                      </p>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div className="col-12 mb-3">
-              <div className="border-radius-elips p-3 bg-gradient-blue d-none d-md-block" data-aos="fade-right">
-                <div className="row d-flex gx-5">
-                  <div className="col-3">
-                    <Image src={icon_1} className="img-fluid" alt="img-goal-1" loading="lazy" />
-                  </div>
-                  <div className="col-9 align-self-center">
-                    <p className="text-white fw-400">Meningkatkan transaksi inner Dealer.</p>
+            {/* mobile not best practice you can use reordering and media query for font*/}
+            <div className="d-md-none"> 
+              <div className="row d-block">
+                <div className="col-12 text-center">
+                  <h3 className="fw-700 text-orange fs-medium mb-3">Solusi yang Kami Hadirkan :</h3>
+                </div>
+                <div className="col-12 col-lg-4">
+                  <Image src={icon_1} alt="icon_1" className="img-fluid rounded" loading='lazy' />
+                </div>
+                <div className="col-12 col-md-8 d-flex">
+                  <div className="py-2 align-self-center justify-self-end">
+                      <p className="fs-6 text-dark-blue fw-600 mb-1">
+                        A. Mapping Lokasi Penjual
+                      </p>
+                      <ol className="px-3">
+                        <li className="text-dark-blue me-3 fs-normal">
+                          Sistem Kami memiliki Fitur Mapping Lokasi Penjual,Sehingga Produk dapat ditransaksikan 100% <br/> ke Stok yang sesuai dengan Area Milik Dealer.
+                        </li>
+                        <li className="me-3 fs-normal">
+                        Sistem Kami memiliki Fitur Produk Management, sehingga Produk dari Dealer hanya dapat ditransaksikan oleh Penjual yang Statusnya telah Tervalidasi oleh Team dari Dealer Operator
+                        </li>
+                      </ol>
                   </div>
                 </div>
-              </div>
-              <div className="row d-block d-md-none">
-                <div className="col-12 text-center">
-                  <Image src={icon_1_mobile} className="img-fluid" alt="img-goal-1" loading="lazy" quality={85} />
+                <div className="col-12 col-lg-4">
+                  <Image src={icon_2} alt="icon_2" className="img-fluid rounded" />
                 </div>
-                <div className="col-12 text-center">
-                  <p className="text-white fw-400 fs-normal">Meningkatkan transaksi inner Dealer.</p>
+                <div className="col-12 col-md-8">
+                  <div className="py-3">
+                      <p className="fs-6 text-dark-blue fw-600 mb-1">
+                        B.	Treatment Administrasi Perpajakan yang Tepat
+                      </p>
+                    <p className="fs-normal">
+                        Kami memiliki Team Keuangan yang memahami betul dunia perpajakan di industri Telekomunikasi. <br/>
+                        Kami memahami bagaimana melakukan Treatment Perpajakan yang tepat & sejalan dengan peraturan yang ada, sehingga para Dealer Operator, Konter Pulsa, Pemain Retail tidak perlu lagi khawatir dengan administrasi perpajakan dan dapat fokus untuk berjualan serta mengembangkan usahanya.
+                    </p>
+                  </div>
+                </div>
+                <div className="col-12 col-lg-4">
+                  <Image src={icon_3} alt="icon_3" className="img-fluid rounded" loading='lazy' />
+                </div>
+                <div className="col-12 col-md-8 d-flex">
+                  <div className="py-2 align-self-center justify-self-end">
+                      <p className="fs-4 text-dark-blue fw-600 fs-6 mb-1">
+                        C.  Konsorsium Program Operator
+                      </p>
+                      <ol className="px-3">
+                        <li className="text-dark-blue me-3 fs-normal">
+                          Dealer Operator dapat meningkatkan jumlah Partisipasi Pemain Konter yang mengikuti Program Operator
+                        </li>
+                        <li className="me-3 fs-normal">
+                          Pemain Konter mendapatkan Harga Pokok Penjualan yang lebih baik, dengan Permodalan yang lebih sesuai dengan kapasitasnya.
+                        </li>
+                      </ol>
+                  </div>
+                </div>
+                <div className="col-12 col-lg-4">
+                  <Image src={icon_4} alt="icon_4" className="img-fluid rounded" loading='lazy' />
+                </div>
+                <div className="col-12 col-md-8">
+                  <div className="py-2">
+                      <p className="fs-6 text-dark-blue fw-600 mb-1">
+                        D. Sebagai Platform Informasi & Marketing
+                      </p>
+                    <p className="fs-normal">
+                      Kami Memiliki Fitur yang memudahkan Dealer untuk memberikan Informasi, Promo atau Benefit Khusus yang ingin diberikan kepada Market dengan Cepat, Efektif & Bebas Biaya.
+                    </p>
+                  </div>
+                </div>
+                <div className="col-12 col-lg-4">
+                  <Image src={icon_5} alt="icon_1" className="img-fluid rounded" loading='lazy' />
+                </div>
+                <div className="col-12 col-md-8 d-flex">
+                  <div className="py-2 align-self-center justify-self-end">
+                      <p className="fs-6 text-dark-blue fw-600 mb-1">
+                        E. Penetrasi Pasar yang Agresif & Fleksibel
+                      </p>
+                      <p className="fs-normal">
+                        Sistem kami memiliki variasi produk terlengkap disertai fleksibilitas fitur aplikasi yang dapat membantu mempermudah Dealer Operator dalam melakukan penetrasi pasar yang lebih agresif lagi.
+                      </p>
+                  </div>
                 </div>
               </div>
             </div>
-            <div className="col-12 mb-3">
-              <div className="border-radius-elips p-3 bg-gradient-blue-reverse d-none d-md-block" data-aos="fade-left" data-aos-delay="300">
-                <div className="row d-flex gx-5">
-                  <div className="col-9 align-self-center">
-                    <p className="text-white fw-400 text-end">Menyediakan pelayanan transaksi cepat & harga bersaing bagi pengguna sesuai area dealer.</p>
-                  </div>
-                  <div className="col-3">
-                    <Image src={icon_2} className="img-fluid" alt="img-goal-2" loading="lazy" />
-                  </div>
-                </div>
-              </div>
-              <div className="row d-block d-md-none">
-                <div className="col-12 text-center">
-                  <Image src={icon_2_mobile} className="img-fluid" alt="img-goal-1" loading="lazy" quality={85} />
-                </div>
-                <div className="col-12 text-center">
-                  <p className="text-white fw-400 fs-normal">
-                    Menyediakan pelayanan berupa transaksi <br />
-                    cepat & harga bersaing bagi pengguna sesuai area.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-12">
-              <div className="border-radius-elips p-3 bg-gradient-blue d-md-block d-none" data-aos="fade-right" data-aos-delay="600">
-                <div className="row d-flex gx-5">
-                  <div className="col-3">
-                    <Image src={icon_3} className="img-fluid" alt="img-goal-3" loading="lazy" />
-                  </div>
-                  <div className="col-9 align-self-center cakupan-partnership">
-                    <p className="text-white fw-400">Menambah pasar baru untuk meningkatkan transaksi inner di wilayah dealer.</p>
-                    <ul className="text-white ps-4">
-                      <li>Reseller</li>
-                      <li>Pemain Jaringan</li>
-                      <li>End user (pengguna akhir)</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div className="row d-block d-md-none">
-                <div className="col-12 text-center">
-                  <Image src={icon_3_mobile} className="img-fluid" alt="img-goal-1" loading="lazy" quality={85} />
-                </div>
-                <div className="col-12 text-center fs-normal">
-                  <p className="text-white fw-400">Menambah pasar baru untuk meningkatkan transaksi inner di wilayah dealer.</p>
-                  <p className="text-white my-0">
-                    {" "}
-                    <svg xmlns="http://www.w3.org/2000/svg" width={25} height={25} fill="currentColor" className="bi bi-dot text-orange" viewBox="0 0 16 16">
-                      <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
-                    </svg>
-                    Reseller
-                  </p>
-                  <p className="text-white my-0">
-                    {" "}
-                    <svg xmlns="http://www.w3.org/2000/svg" width={25} height={25} fill="currentColor" className="bi bi-dot text-orange" viewBox="0 0 16 16">
-                      <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
-                    </svg>
-                    Pemain Jaringan
-                  </p>
-                  <p className="text-white my-0">
-                    {" "}
-                    <svg xmlns="http://www.w3.org/2000/svg" width={25} height={25} fill="currentColor" className="bi bi-dot text-orange" viewBox="0 0 16 16">
-                      <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
-                    </svg>
-                    End user (pengguna akhir)
-                  </p>
-                </div>
-              </div>
+            <div className="text-center mt-md-4 mt-1">
+              <button className="rounded-5 bg-orange btn text-white px-md-5 py-md-3 p-2" onClick={()=>form_partner()}>
+                <span className="fs-medium d-md-block d-none">Daftar Sekarang</span>
+                <span className="d-block d-md-none">Daftar Sekarang</span>
+              </button>
             </div>
           </div>
-        </div>
       </section>
     </div>
   );
