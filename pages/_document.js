@@ -1,4 +1,5 @@
 import { Html, Head, Main, NextScript } from "next/document";
+
 export default function Document() {
   return (
     <Html>
@@ -11,7 +12,10 @@ export default function Document() {
         <link href="vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
         {/* <link href="vendor/glightbox/css/glightbox.min.css" rel="stylesheet"/> */}
         <link href="vendor/remixicon/remixicon.css" rel="stylesheet" />
+        {/* <-- Google tag (gtag.js) --> */}
         {/* <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet"/> */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-1W5177LWKC"></script>
+        <script async src="js/google-analytics.js"></script>
       </Head>
       <body>
         <Main />
