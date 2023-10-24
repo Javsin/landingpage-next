@@ -25,6 +25,11 @@ const Footer = () => {
                   Jl. Batan Selatan No.54, Miroto, Kec. Semarang Tengah, <br />{" "}
                   Kota Semarang, Jawa Tengah 50134
                 </p>
+                <p>
+                  Infiniti Office, Menara Cakrawala Lt 12, Unit 05A
+                  Jl. M.H. Thamrin No.9, Rukun Tetangga 002, Rukun Warga 001, Kelurahan  Kebon Sirih, Kecamatan Menteng, Jakarta Pusat, Kode Pos 10340.
+                </p>
+
                 <div className="social-links mt-3">
                   <a
                     href="https://www.instagram.com/murapay.id/"
