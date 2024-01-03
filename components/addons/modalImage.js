@@ -1,7 +1,7 @@
 import Modal from "react-modal";
 import { useState, useEffect } from "react";
 import Image from "next/image";
-import ImageKebutCuan from "../../public/img/popup-website-outline.png";
+import ImageKebutJuara from "../../public/img/kebut-juara.png";
 
 Modal.setAppElement("#__next");
 
@@ -65,12 +65,12 @@ const ModalImage = () => {
         <div className="container-fluid">
           <div className="row mb-2 pb-2">
             <Image
-              src={ImageKebutCuan}
+              src={ImageKebutJuara}
               width={500}
               height={500}
               alt="Picture of the author"
               onClick={() =>
-                window.open("https://kebutcuan.murapay.id/", "_blank")
+                window.open("https://kebutjuara.murapay.id/", "_blank")
               }
             />
           </div>
