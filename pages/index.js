@@ -9,7 +9,7 @@ import Carousel from "../components/homepage/carousel";
 import FAQ from "../components/homepage/faq";
 import Modal from "../components/addons/modalvid";
 import ModalImage from "../components/addons/modalImage";
-import ModalStatic from "../components/addons/modalStatic";
+// import ModalStatic from "../components/addons/modalStatic";
 
 export default function Home() {
   useEffect(() => {
