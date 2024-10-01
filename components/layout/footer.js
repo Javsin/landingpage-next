@@ -125,6 +125,12 @@ const Footer = () => {
                 </li>
                 <li>
                   <i className="bx bx-chevron-right" />
+                  <Link href="https://portal.murapay.id/" passHref>
+                    <a target="_blank">Portal Murapay</a>
+                  </Link>
+                </li>
+                <li>
+                  <i className="bx bx-chevron-right" />
                   <Link href="/harga">
                     <a>Harga</a>
                   </Link>

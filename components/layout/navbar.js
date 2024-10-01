@@ -126,6 +126,11 @@ const Navbar = (props) => {
               </Link>
             </li>
             <li>
+              <Link href="https://portal.murapay.id" passHref>
+                <a target="_blank" className="nav-link scrollto">Portal Murapay</a>
+              </Link>
+            </li>
+            <li>
               <Link href="/harga">
                 <a className={router.pathname == "/harga" ? "nav-link scrollto active" : "nav-link scrollto"}>Harga</a>
               </Link>
